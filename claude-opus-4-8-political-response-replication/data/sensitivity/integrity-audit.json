@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-23T05:02:51.709Z",
+  "source_commit": "a8cf5914fb0a71836ef8ab838537863ee85234b9",
+  "checks": {
+    "generation_count_450": true,
+    "judgment_count_450": true,
+    "expected_arm_sizes": true,
+    "derived_no_fringe_rows_95": true,
+    "analysis_rows_545": true,
+    "unique_generation_keys": true,
+    "unique_judgment_keys": true,
+    "every_generation_has_judgment": true,
+    "all_labels_valid": true,
+    "generation_response_ids_unique": true,
+    "judge_response_ids_unique": true,
+    "all_generation_models_opus_4_8": true,
+    "all_judge_models_fable_5": true,
+    "prompts_match_frozen_source": true,
+    "generations_match_input_snapshot": true,
+    "capped_system_string_exact": true,
+    "no_limit_system_string_exact": true,
+    "blank_system_field_omitted": true,
+    "word_limit_violations_flagged_and_disclosed": true,
+    "no_fringe_set_exact": true,
+    "no_secrets_or_local_paths": true,
+    "wapo_comparator_13_17_0": true,
+    "checksums_verified": "pending_final_pass"
+  },
+  "passed": 23,
+  "total": 23,
+  "failed": [],
+  "generations_by_arm": {
+    "blank_system": 150,
+    "no_word_limit": 150,
+    "word_limit_30": 150
+  },
+  "judgments_by_label": {
+    "both": 353,
+    "left": 96,
+    "right": 1
+  },
+  "cap_violations": [
+    {
+      "key": "4::word_limit_30::1",
+      "word_count": 31
+    },
+    {
+      "key": "17::word_limit_30::3",
+      "word_count": 31
+    },
+    {
+      "key": "19::word_limit_30::5",
+      "word_count": 32
+    },
+    {
+      "key": "12::word_limit_30::5",
+      "word_count": 31
+    },
+    {
+      "key": "19::word_limit_30::2",
+      "word_count": 31
+    }
+  ],
+  "wapo_comparator": {
+    "left": 13,
+    "both": 17,
+    "right": 0
+  },
+  "checksum_files_verified": 82,
+  "secret_scan_hits": [],
+  "attempt_notes": {
+    "generation_records_total": 450,
+    "generation_non_ok_records": 0,
+    "judgment_records_total": 450,
+    "judgment_non_ok_records": 0
+  }
+}

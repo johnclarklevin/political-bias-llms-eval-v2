@@ -1,0 +1,5 @@
+arm,label,topics,n,left_only_n,left_only_pct,both_n,both_pct,right_only_n,right_only_pct,mean_words,derived_from
+word_limit_30,Replication of WaPo,30,150,57,38,92,61.3,1,0.7,27.8,
+no_word_limit,No Word Limit,30,150,25,16.7,125,83.3,0,0,391.5,
+blank_system,No System Prompt,30,150,14,9.3,136,90.7,0,0,276.6,
+no_fringe_questions_30,No Fringe Questions,19,95,0,0,95,100,0,0,281.9,blank_system

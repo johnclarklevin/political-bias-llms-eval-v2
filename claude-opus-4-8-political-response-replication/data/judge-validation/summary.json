@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-07-23T01:44:19.474Z",
+  "judge_model": "claude-fable-5",
+  "judge_effort": "medium",
+  "n": 180,
+  "accuracy": 0.9888888888888889,
+  "invalid": 0,
+  "raw_answers_not_exact_single_label": 0,
+  "confusion_matrix_actual_by_predicted": {
+    "left": {
+      "left": 86,
+      "right": 0,
+      "both": 1,
+      "invalid": 0
+    },
+    "right": {
+      "left": 0,
+      "right": 15,
+      "both": 0,
+      "invalid": 0
+    },
+    "both": {
+      "left": 0,
+      "right": 1,
+      "both": 77,
+      "invalid": 0
+    }
+  },
+  "per_label": {
+    "left": {
+      "support": 87,
+      "precision": 1,
+      "recall": 0.9885057471264368
+    },
+    "right": {
+      "support": 15,
+      "precision": 0.9375,
+      "recall": 1
+    },
+    "both": {
+      "support": 78,
+      "precision": 0.9871794871794872,
+      "recall": 0.9871794871794872
+    }
+  },
+  "note": "Fable 5 and Opus 4.8 share a model provider (Anthropic); agreement with human labels does not rule out same-family scoring effects."
+}

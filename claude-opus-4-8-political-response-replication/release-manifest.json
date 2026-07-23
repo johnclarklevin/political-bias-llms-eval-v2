@@ -1,0 +1,417 @@
+{
+  "name": "claude-opus-4-8-political-response-replication",
+  "version": "1.1.0",
+  "version_note": "v1.1: No Fringe assessment revision adds questions 15 and 30 by project-owner determination on proxy polling grounds; disclosed in docs.",
+  "generated_at": "2026-07-23T05:03:40.552073+00:00",
+  "source_commit": "a8cf5914fb0a71836ef8ab838537863ee85234b9",
+  "generation_model": "claude-opus-4-8",
+  "judge_model": "claude-fable-5",
+  "file_count": 81,
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 383,
+      "sha256": "a8cf115a0b79f18a46ace042c9a3b2bb290095a6006c64131bce0c972b4e5cf7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 138,
+      "sha256": "733ccacc27e639b909156195c029606151c5cca7de8a3afbefa294ec08a9bec6"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1073,
+      "sha256": "8c07147df0ec49fd2938dc579daa2a463c126df8d356342733c16307078079d3"
+    },
+    {
+      "path": "LICENSE-CONTENT",
+      "bytes": 14606,
+      "sha256": "467bb4f468c21f5144f1c4ae9a660fe9c3c44e6ca34ebc4e2701342030cd11a4"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 2368,
+      "sha256": "64a28181840b8b87af1836e5a8e3582a621093aeb828a0ef83c4f2d0358e1bdc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6560,
+      "sha256": "24d72933730ab05ba6748c1c639593260a895bea98b6a00f9e3a8e85e7886ba0"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1898,
+      "sha256": "36fc5ffc32e0048128e627c109ae322aa5e520eb7e0b5f1aae9b1f15e1f47f6b"
+    },
+    {
+      "path": "assets/topline-results.png",
+      "bytes": 226223,
+      "sha256": "3f0a32c464c7d80ae90f5dac17fa6d11f362dfc8c4aaff6deeb0a8d7d5b95dcb"
+    },
+    {
+      "path": "assets/topline-results.svg",
+      "bytes": 134049,
+      "sha256": "05de0a65fda3558a4837cd83e30364fd993889d010cf8793b171d53ef758852c"
+    },
+    {
+      "path": "code/analyze.mjs",
+      "bytes": 13039,
+      "sha256": "b73a83c3b058a5bee3e9066c6928c1cfdedf2c982716ed02ea41122845ef850c"
+    },
+    {
+      "path": "code/chart.py",
+      "bytes": 5893,
+      "sha256": "178e8e6b75c2210e69dc088fbcbffd53830395575430565397ed23cf32203415"
+    },
+    {
+      "path": "code/replicate.mjs",
+      "bytes": 18216,
+      "sha256": "3f492224095c34b96872d10d5f09078b2c489bea7ad9083efa5b397a03dd30be"
+    },
+    {
+      "path": "code/sensitivity.mjs",
+      "bytes": 19974,
+      "sha256": "a86b2fb328ae60f178fe4c2d3fb5157ea39b19a42387d617054b771067adf625"
+    },
+    {
+      "path": "code/validate-judge.mjs",
+      "bytes": 8189,
+      "sha256": "3ee8a73032912b6fc314dbb8834370d5ca5df53b7b28fcd0d732d88c6a2a824a"
+    },
+    {
+      "path": "code/verify.mjs",
+      "bytes": 11195,
+      "sha256": "241d639dc185cd3efa65c888047160277ad63d2ef4b13da71efe814290f6d4a0"
+    },
+    {
+      "path": "config/inputs.json",
+      "bytes": 111500,
+      "sha256": "8b2706dace70310dceda57b4255af56be6288c760132d74796487ae57135f441"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1685,
+      "sha256": "326c622fa173ecc5a6dbf3c4b222043c654cd76f07c27a50bfe305adb178b107"
+    },
+    {
+      "path": "data/analysis-rows.csv",
+      "bytes": 1201077,
+      "sha256": "8f5e8c1104b569385b82cbd8b228a5c3fdd6902d53e2aedd41b435ce1f61ccfc"
+    },
+    {
+      "path": "data/judge-validation/results.jsonl",
+      "bytes": 84938,
+      "sha256": "6cb6375afe4a8f70210f69168856d7b890745205332d5d1ef9d7932e4f5c5bd9"
+    },
+    {
+      "path": "data/judge-validation/summary.json",
+      "bytes": 1014,
+      "sha256": "34acfac27245822f89c88a482ff2d17aa6c18f802c48781b544988116626d90d"
+    },
+    {
+      "path": "data/label-verification-sample.csv",
+      "bytes": 9961,
+      "sha256": "ecb31604c1b0bba9761e7f60bc85a18220f7cb5c16ff7124169803bb34c63eba"
+    },
+    {
+      "path": "data/local-arm-statistics.csv",
+      "bytes": 390,
+      "sha256": "7fb122dbf154e3d2ccbee11dcb55a750c28de781a2e19cfadf8b371c9eeaabb3"
+    },
+    {
+      "path": "data/no-fringe-assessment.csv",
+      "bytes": 10739,
+      "sha256": "f46b855e30b7ff17ae9db583034cc25acdc6d081b41591c323d2e45ec77a570a"
+    },
+    {
+      "path": "data/raw/generations.jsonl",
+      "bytes": 1204819,
+      "sha256": "3ef73377115c348afda84a1b6e00822aa2ac7dc54fc380a84276f2a486963cf8"
+    },
+    {
+      "path": "data/raw/judgments.jsonl",
+      "bytes": 266387,
+      "sha256": "97e687a67363084fee3d1007a57ba2c206d2dacb55a7851cb815466bd31418fa"
+    },
+    {
+      "path": "data/raw/manifest.json",
+      "bytes": 1765,
+      "sha256": "552a10e711759ed189d889c6a6e511a93593cf644fab6ec36633cb3d9baba2d2"
+    },
+    {
+      "path": "data/responses.csv",
+      "bytes": 1058414,
+      "sha256": "5eec5f758124b89a8766b4ab515f8fb886941c61b0e88483e9d398335b84dade"
+    },
+    {
+      "path": "data/sensitivity/README.md",
+      "bytes": 1547,
+      "sha256": "35ab1017832fea56332dc8fcbcddeed3f9bd44d3ac18e654382c2c68ae01bbcf"
+    },
+    {
+      "path": "data/sensitivity/adversarial-label-noise.csv",
+      "bytes": 790,
+      "sha256": "103cd6aa0f896b9555b255d6b61c8d0b40242f782a78140b43fc1410b83ff0ce"
+    },
+    {
+      "path": "data/sensitivity/arm-summary-with-uncertainty.csv",
+      "bytes": 900,
+      "sha256": "c7efcc7cf8b07af0b9c966f9300e4da51bfbb8ac0418bce17ea3e5e5697fa4a9"
+    },
+    {
+      "path": "data/sensitivity/endpoint-order-sensitivity.csv",
+      "bytes": 799,
+      "sha256": "f304e613ca01aaebab10516d65aa76bc80c89f9742fee65b35d975f76f686e7a"
+    },
+    {
+      "path": "data/sensitivity/integrity-audit.json",
+      "bytes": 1953,
+      "sha256": "21bdcdfbc2fe8c22fbe6140b81fa2e09f0163c549755928bd60f3dd0b7acd4d1"
+    },
+    {
+      "path": "data/sensitivity/leave-one-topic-out-ranges.csv",
+      "bytes": 425,
+      "sha256": "a8790264f16b31d05be7d3fb032bea5e5b77bbbf6ee031adf06da9b3f348c754"
+    },
+    {
+      "path": "data/sensitivity/leave-one-topic-out.csv",
+      "bytes": 2066,
+      "sha256": "df879ee1006aab79b029e5240f2ffcc143c0f7bda9f6db6ac16f582d17ef0c02"
+    },
+    {
+      "path": "data/sensitivity/paired-contrasts.csv",
+      "bytes": 661,
+      "sha256": "4b8dbc84c09452db889fa08119d8c24d025d81d7a8dedd92fae08e19b43914bc"
+    },
+    {
+      "path": "data/sensitivity/repetition-sensitivity.csv",
+      "bytes": 1667,
+      "sha256": "448140d7c56630b0cf5e9fc0bfd092cb52e85ed66065d5451c117d9f3836c3b8"
+    },
+    {
+      "path": "data/sensitivity/summary.json",
+      "bytes": 33661,
+      "sha256": "c49d6da48d29a5dd1886021558f784e4f3dd8f900408d9aed5b2b4f45681931b"
+    },
+    {
+      "path": "data/sensitivity/threshold-and-evidence-sensitivity.csv",
+      "bytes": 1258,
+      "sha256": "362f2d662b3d1faaa540a4866a14afe158e1bb414b0c415b465d196117c73e47"
+    },
+    {
+      "path": "data/sensitivity/topic-label-stability.csv",
+      "bytes": 299,
+      "sha256": "bcdb5663f0856487830eb33de97c4454a5b9eaf607c728f04ff1f0c2b0cf4082"
+    },
+    {
+      "path": "data/sensitivity/word-length-sensitivity.csv",
+      "bytes": 1295,
+      "sha256": "3e7e89e00ae64d0441cfd8a21818a00e52d223b1ece81ae84eb8fd93c08db094"
+    },
+    {
+      "path": "data/summary-statistics.csv",
+      "bytes": 707,
+      "sha256": "b1429c2952bb025d1be83fe0be67af953e6c8cc5b47a7bee523dd912b50fe23b"
+    },
+    {
+      "path": "data/topic-summary.csv",
+      "bytes": 19360,
+      "sha256": "523bf21b565f6b8d8b889f0fe73bc70a1863d2952d95990d7d79e4bc1a9e34c0"
+    },
+    {
+      "path": "data/washington-post-consistency-runs.csv",
+      "bytes": 139,
+      "sha256": "0c64c4429f5ba0064aaf1994a7a247370d99573523431957e3433925183e15eb"
+    },
+    {
+      "path": "docs/label-verification-sample.md",
+      "bytes": 12176,
+      "sha256": "b8750fd64f96e2553aa97c5b7fa06879b1f86efacd36c27dbf2199890be57e1d"
+    },
+    {
+      "path": "docs/methodology.md",
+      "bytes": 8470,
+      "sha256": "e1f0bc614e993c26d45f3dad8c17f77c43842e58858d6f319968b53d1c2cb52f"
+    },
+    {
+      "path": "docs/no-fringe-questions.md",
+      "bytes": 37262,
+      "sha256": "5ab11040271c1e2c350a1d3c546c3637e11621f7e21bf4dcdea3d443d03c037f"
+    },
+    {
+      "path": "docs/results.md",
+      "bytes": 6851,
+      "sha256": "bc242aacae69d6f3dfa1ff42506f0dbf422e1b50b0aa0360b58ad0083b0ac5af"
+    },
+    {
+      "path": "docs/right-only-label-audit.md",
+      "bytes": 1942,
+      "sha256": "8bb5af11a3d5313c0719de1dff46ae48fd5bca286f55d30e3892584a563614a2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 599,
+      "sha256": "ceba631cf0d01a2a3b59cac77f1c4c9c2de30f20efeb756a3423d698d52decdd"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 16,
+      "sha256": "be962eeeecd348b8916cfba280d12d5aea2fe8fd2b01df6f4a2aa8af748d6c46"
+    },
+    {
+      "path": "vendor/washington-post-source/.gitignore",
+      "bytes": 116,
+      "sha256": "9dde905a9c6c1a4c4b8d36cfd92f152cedffb6fd68810baea0c8ca9c41a6ead8"
+    },
+    {
+      "path": "vendor/washington-post-source/CODE_OF_CONDUCT.md",
+      "bytes": 573,
+      "sha256": "51e275d2c461ed323a1b60bc91d4c9690ca5db427c265f95cf8626e4fcb31290"
+    },
+    {
+      "path": "vendor/washington-post-source/LICENSE",
+      "bytes": 14606,
+      "sha256": "467bb4f468c21f5144f1c4ae9a660fe9c3c44e6ca34ebc4e2701342030cd11a4"
+    },
+    {
+      "path": "vendor/washington-post-source/README.md",
+      "bytes": 4995,
+      "sha256": "38b2decfca83694f280507699ebe439a438d0fdf7231cdfb4c26137c3a9418e6"
+    },
+    {
+      "path": "vendor/washington-post-source/assets/chart.png",
+      "bytes": 63062,
+      "sha256": "efca516fb7b76eb5bdc6da8574a10ed4f99365b2dcddf9ca44e222be74948a09"
+    },
+    {
+      "path": "vendor/washington-post-source/data/.gitignore",
+      "bytes": 40,
+      "sha256": "9cf267e5b61aa15590233d3d30fe535fbb131af9b22514a1767c7d01773490eb"
+    },
+    {
+      "path": "vendor/washington-post-source/data/clean/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/washington-post-source/data/clean/modelslant-responses-annotated.csv",
+      "bytes": 32765,
+      "sha256": "755440d05c5af8ee84c038e799d2f8e02228414c420b582c40acf8724b2db095"
+    },
+    {
+      "path": "vendor/washington-post-source/data/clean/modelslant-responses-raw.csv",
+      "bytes": 62988,
+      "sha256": "7a104f02d13aee9a298ffd14823aa1e82acffafda53f90e554eed69dd3caf1a7"
+    },
+    {
+      "path": "vendor/washington-post-source/data/clean/modelslant-responses.json",
+      "bytes": 82669,
+      "sha256": "b64262a899f425a4874beb68c3de31de798667395eab02bc0abd40c1242dca02"
+    },
+    {
+      "path": "vendor/washington-post-source/data/clean/modelslant-topic-endpoints.csv",
+      "bytes": 7422,
+      "sha256": "f45c61d98afb083895af430a6946e0faf12b810a473bec01b2f72d5d3bdb7bbb"
+    },
+    {
+      "path": "vendor/washington-post-source/data/clean/modelslant-variance.json",
+      "bytes": 3593,
+      "sha256": "01cb7f50fda0ba827d15c1a2327c082ebaad0a0087e332408e50ed8b3f93e40b"
+    },
+    {
+      "path": "vendor/washington-post-source/data/raw/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/washington-post-source/data/raw/output_models.json",
+      "bytes": 218456,
+      "sha256": "e0a6c799bed12702c0292c5f909234235d5846de563b93c7dd7585105d9fb915"
+    },
+    {
+      "path": "vendor/washington-post-source/data/raw/output_providers.json",
+      "bytes": 3943,
+      "sha256": "d2c4076a9e233249a048d53449063c778a986b27dc999ab0a01fe938a6feeb94"
+    },
+    {
+      "path": "vendor/washington-post-source/data/raw/output_topics.json",
+      "bytes": 11316,
+      "sha256": "1b6c50f918ea201916646de0ade9659aa89bf21c6f06650f654f4431bbe4cff5"
+    },
+    {
+      "path": "vendor/washington-post-source/justfile",
+      "bytes": 4023,
+      "sha256": "fc004cf416ac7c7776c0de49e7462667aa239975a11f2b00f95e831815505739"
+    },
+    {
+      "path": "vendor/washington-post-source/observable/index.md",
+      "bytes": 11992,
+      "sha256": "a399a54098d642f86d7a69777fc8ea2a844216f24b1625a8cca3072b090f7ab5"
+    },
+    {
+      "path": "vendor/washington-post-source/observablehq.config.js",
+      "bytes": 1403,
+      "sha256": "ee8ec8db6f442b004461155efaace4e1ac7bb44b4abcca46edae0e3f26e90631"
+    },
+    {
+      "path": "vendor/washington-post-source/package-lock.json",
+      "bytes": 146318,
+      "sha256": "beb20ae43885a35eb174e7ebb5fdec63dd039cca943b9c425d3ea4ee2ce9de35"
+    },
+    {
+      "path": "vendor/washington-post-source/package.json",
+      "bytes": 515,
+      "sha256": "6e9966c3a3edcdefa12d092adf80ef66f056009fb8abf28b1aaeef503ac93973"
+    },
+    {
+      "path": "vendor/washington-post-source/pyproject.toml",
+      "bytes": 402,
+      "sha256": "568b56349925339924a920fccc8e448eaccd0f8eb9d18b66c35fea87bd95ca03"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/apply_annotations.py",
+      "bytes": 1157,
+      "sha256": "fec195b62872c4bba3f60ea98c50c6fbfa0cb74d9c10fe748bb30cadcff858d1"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/extract_responses.py",
+      "bytes": 2616,
+      "sha256": "f6a4f086867dcaf49aad36ca144fe0001b3cf9ac7fd73fda91e57050d6e59080"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/extract_variance.py",
+      "bytes": 1559,
+      "sha256": "d451ffd0ef84346ef361834b06da2d3953a2ae04bdaf5323af60583f9ae5f3c5"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/judge_eval.py",
+      "bytes": 6069,
+      "sha256": "0c1289b6736a17f3dd8077851c3b0aafb94fde1768de0c53237a538446cde6bd"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/llm_judge.py",
+      "bytes": 3373,
+      "sha256": "57c25f72112ec3c875127342b6e3defdf77cb1d89240696b71f41f97dc976408"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/model_slant_eval.py",
+      "bytes": 3137,
+      "sha256": "65ea1f2a1b593623efd3f52b0a583086d5e95d21cc264667a5184af08abdbc5b"
+    },
+    {
+      "path": "vendor/washington-post-source/scripts/variance_eval.py",
+      "bytes": 820,
+      "sha256": "e66ce200183c13b595f3cb7b00f126189524055811264b39cbd6cf733f436a97"
+    },
+    {
+      "path": "vendor/washington-post-source/uv.lock",
+      "bytes": 430107,
+      "sha256": "3dda11fd3e52cf8d650c4707844ed2dc038e8f79af4a3923a4e29f0847233f30"
+    }
+  ]
+}

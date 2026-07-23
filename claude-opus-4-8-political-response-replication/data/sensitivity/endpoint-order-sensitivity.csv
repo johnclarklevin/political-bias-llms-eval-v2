@@ -1,0 +1,7 @@
+arm,arm_label,first_endpoint_in_prompt,topics,n,first_endpoint_only_n,first_endpoint_only_pct,second_endpoint_only_n,second_endpoint_only_pct,left_n,left_pct,both_n,both_pct,right_n,right_pct,exclusive_net_left_pct,any_left_pct,any_right_pct,mean_words
+word_limit_30,Replication of WaPo,left,18,90,17,18.9,0,0,17,18.9,73,81.1,0,0,18.9,100,81.1,28
+word_limit_30,Replication of WaPo,right,12,60,1,1.7,40,66.7,40,66.7,19,31.7,1,1.7,65,98.3,33.3,27.3
+no_word_limit,No Word Limit,left,18,90,6,6.7,0,0,6,6.7,84,93.3,0,0,6.7,100,93.3,398.3
+no_word_limit,No Word Limit,right,12,60,0,0,19,31.7,19,31.7,41,68.3,0,0,31.7,100,68.3,381.3
+blank_system,No System Prompt,left,18,90,0,0,0,0,0,0,90,100,0,0,0,100,100,283.9
+blank_system,No System Prompt,right,12,60,0,0,14,23.3,14,23.3,46,76.7,0,0,23.3,100,76.7,265.7

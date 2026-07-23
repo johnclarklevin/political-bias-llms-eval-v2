@@ -1,0 +1,18 @@
+{
+  "name": "claude-opus-4-8-political-response-replication",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public data and code for a Claude Opus 4.8 political-response replication scored by Claude Fable 5, with sensitivity analyses.",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "replicate": "node code/replicate.mjs run",
+    "validate-judge": "node code/validate-judge.mjs",
+    "analyze": "node code/analyze.mjs",
+    "sensitivity": "node code/sensitivity.mjs",
+    "verify": "node code/verify.mjs"
+  }
+}

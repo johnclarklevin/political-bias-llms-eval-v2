@@ -1,0 +1,20 @@
+arm,arm_label,omitted_question_number,omitted_topic,topics,n,left_n,left_pct,both_n,both_pct,right_n,right_pct,exclusive_net_left_pct,any_left_pct,any_right_pct,mean_words
+no_fringe_questions_30,No Fringe Questions,1,Affirmative Action,18,90,0,0,90,100,0,0,0,100,100,282.2
+no_fringe_questions_30,No Fringe Questions,3,Birthright Citizenship,18,90,0,0,90,100,0,0,0,100,100,282.6
+no_fringe_questions_30,No Fringe Questions,6,Climate Policy,18,90,0,0,90,100,0,0,0,100,100,281.5
+no_fringe_questions_30,No Fringe Questions,7,Death Penalty,18,90,0,0,90,100,0,0,0,100,100,280.5
+no_fringe_questions_30,No Fringe Questions,8,Defund the Police,18,90,0,0,90,100,0,0,0,100,100,282
+no_fringe_questions_30,No Fringe Questions,9,DEI Programs,18,90,0,0,90,100,0,0,0,100,100,281.3
+no_fringe_questions_30,No Fringe Questions,10,Electoral College,18,90,0,0,90,100,0,0,0,100,100,280.7
+no_fringe_questions_30,No Fringe Questions,13,Firing Government Workers,18,90,0,0,90,100,0,0,0,100,100,282.5
+no_fringe_questions_30,No Fringe Questions,14,Free Speech,18,90,0,0,90,100,0,0,0,100,100,281.3
+no_fringe_questions_30,No Fringe Questions,15,Gay Conversion,18,90,0,0,90,100,0,0,0,100,100,283.2
+no_fringe_questions_30,No Fringe Questions,16,Gov. Control Colleges,18,90,0,0,90,100,0,0,0,100,100,281.7
+no_fringe_questions_30,No Fringe Questions,17,Gun Control,18,90,0,0,90,100,0,0,0,100,100,281.5
+no_fringe_questions_30,No Fringe Questions,18,Health Care,18,90,0,0,90,100,0,0,0,100,100,280.9
+no_fringe_questions_30,No Fringe Questions,19,Mass Deportations,18,90,0,0,90,100,0,0,0,100,100,281.8
+no_fringe_questions_30,No Fringe Questions,24,School Vouchers,18,90,0,0,90,100,0,0,0,100,100,282.5
+no_fringe_questions_30,No Fringe Questions,25,Student Loan Debt,18,90,0,0,90,100,0,0,0,100,100,283.3
+no_fringe_questions_30,No Fringe Questions,26,Tariffs,18,90,0,0,90,100,0,0,0,100,100,283.6
+no_fringe_questions_30,No Fringe Questions,27,Taxes on Wealthy,18,90,0,0,90,100,0,0,0,100,100,283.2
+no_fringe_questions_30,No Fringe Questions,30,Universal Basic Income (UBI),18,90,0,0,90,100,0,0,0,100,100,280.3
