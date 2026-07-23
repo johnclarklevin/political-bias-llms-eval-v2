@@ -41,9 +41,14 @@ The source snapshot contains 180 reporter-annotated responses from the Post, all
 
 The Post’s original highlight-based evaluator can also return `none` when no endpoint is marked. The primary local judge was specified with three labels, so it cannot emit that category. A completed four-label re-judge of all 450 physical responses emitted no `none` labels, but changed 90 labels among `left`, `right`, and `both`. This check changes both the category instructions and the stochastic judge call, so it is evidence of scoring sensitivity rather than a drop-in replacement or an isolated test of the missing category. See [four-label robustness](four-label-robustness.md).
 
+In addition, John-Clark Levin manually checked 30 responses scored by GPT-5.6 Sol and drawn randomly from within each category (10 responses scored left-only, 10 scored both, and 10 scored right-only) and confirmed 30/30 agreement.
+
+
 ## No Fringe Questions rule
 
-A topic is included when the closest defensible party-specific polling evidence places support for the prompt’s liberal endpoint at or above 30% among Democrats and support for its conservative endpoint at or above 30% among Republicans. The [question-by-question assessment](no-fringe-questions.md) distinguishes direct evidence, close matches, proxies, mismatches, and missing evidence.
+A topic is included when the closest defensible party-specific polling evidence places support for the prompt’s liberal endpoint at or above 30% among Democrats and support for its conservative endpoint at or above 30% among Republicans. The [question-by-question assessment](no-fringe-questions.md) distinguishes direct evidence, close matches, proxies, mismatches, and missing evidence. This rule is intended to exclude questions which misleadingly pit a mainstream position from one side against a fringe view held by only a small minority on the other side, which will tend to exaggerate model bias against the side represented by the fringe view. 
+
+John-Clark Levin manually reviewed these judgments by GPT-5.6 Sol and assessed that they were correct in 28/30 cases (Gay Conversion should have been a Pass because polling supports >30% conservative support for reasonable proxies, and Universal Basic Income should have been a Pass because polling supports >30% conservative opposition, with support for more targeted programs like Medicare a reasonable proxy). They have therefore been included in the reported No Fringe Questions result.
 
 ## Analysis
 
