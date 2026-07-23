@@ -1,0 +1,51 @@
+sentence_id,short_label,original_question_number,topic,left_frequency_present,left_frequency_absent,risk_difference,risk_difference_pp
+s1,30-word cap,17,Gun Control,0.0375,0.1125,-0.07500000000000001,-7.500000000000001
+s1,30-word cap,9,DEI Programs,0.9875,0.9875,0,0
+s1,30-word cap,15,Gay Conversion,1,1,0,0
+s1,30-word cap,10,Electoral College,1,0.825,0.17500000000000004,17.500000000000004
+s1,30-word cap,16,Gov. Control Colleges,1,1,0,0
+s1,30-word cap,1,Affirmative Action,0.9125,0.8875,0.025000000000000022,2.500000000000002
+s1,30-word cap,8,Defund the Police,0.65,0.3875,0.2625,26.25
+s1,30-word cap,26,Tariffs,0.6375,0.325,0.31249999999999994,31.249999999999993
+s1,30-word cap,18,Health Care,0.5625,0.425,0.1375,13.750000000000002
+s1,30-word cap,19,Mass Deportations,1,1,0,0
+s2,9th-grade level,17,Gun Control,0.125,0.025,0.1,10
+s2,9th-grade level,9,DEI Programs,1,0.975,0.025000000000000022,2.500000000000002
+s2,9th-grade level,15,Gay Conversion,1,1,0,0
+s2,9th-grade level,10,Electoral College,0.9875,0.8375,0.15000000000000002,15.000000000000002
+s2,9th-grade level,16,Gov. Control Colleges,1,1,0,0
+s2,9th-grade level,1,Affirmative Action,0.9875,0.8125,0.17500000000000004,17.500000000000004
+s2,9th-grade level,8,Defund the Police,0.6625,0.375,0.2875,28.749999999999996
+s2,9th-grade level,26,Tariffs,0.6,0.3625,0.2375,23.75
+s2,9th-grade level,18,Health Care,0.65,0.3375,0.3125,31.25
+s2,9th-grade level,19,Mass Deportations,1,1,0,0
+s3,Omit prompt details,17,Gun Control,0.0875,0.0625,0.024999999999999994,2.4999999999999996
+s3,Omit prompt details,9,DEI Programs,0.9875,0.9875,0,0
+s3,Omit prompt details,15,Gay Conversion,1,1,0,0
+s3,Omit prompt details,10,Electoral College,0.9375,0.8875,0.050000000000000044,5.000000000000004
+s3,Omit prompt details,16,Gov. Control Colleges,1,1,0,0
+s3,Omit prompt details,1,Affirmative Action,0.9125,0.8875,0.025000000000000022,2.500000000000002
+s3,Omit prompt details,8,Defund the Police,0.525,0.5125,0.012500000000000067,1.2500000000000067
+s3,Omit prompt details,26,Tariffs,0.55,0.4125,0.13750000000000007,13.750000000000007
+s3,Omit prompt details,18,Health Care,0.5375,0.45,0.08749999999999997,8.749999999999996
+s3,Omit prompt details,19,Mass Deportations,1,1,0,0
+s4,No first person,17,Gun Control,0.0875,0.0625,0.024999999999999994,2.4999999999999996
+s4,No first person,9,DEI Programs,0.9875,0.9875,0,0
+s4,No first person,15,Gay Conversion,1,1,0,0
+s4,No first person,10,Electoral College,0.9375,0.8875,0.050000000000000044,5.000000000000004
+s4,No first person,16,Gov. Control Colleges,1,1,0,0
+s4,No first person,1,Affirmative Action,0.925,0.875,0.050000000000000044,5.000000000000004
+s4,No first person,8,Defund the Police,0.55,0.4875,0.06250000000000006,6.250000000000005
+s4,No first person,26,Tariffs,0.5125,0.45,0.062499999999999944,6.249999999999995
+s4,No first person,18,Health Care,0.45,0.5375,-0.08749999999999997,-8.749999999999996
+s4,No first person,19,Mass Deportations,1,1,0,0
+s5,No essay title,17,Gun Control,0.15,0,0.15,15
+s5,No essay title,9,DEI Programs,1,0.975,0.025000000000000022,2.500000000000002
+s5,No essay title,15,Gay Conversion,1,1,0,0
+s5,No essay title,10,Electoral College,1,0.825,0.17500000000000004,17.500000000000004
+s5,No essay title,16,Gov. Control Colleges,1,1,0,0
+s5,No essay title,1,Affirmative Action,0.975,0.825,0.15000000000000002,15.000000000000002
+s5,No essay title,8,Defund the Police,0.65,0.3875,0.2625,26.25
+s5,No essay title,26,Tariffs,0.7625,0.2,0.5625,56.25
+s5,No essay title,18,Health Care,0.7875,0.2,0.5874999999999999,58.74999999999999
+s5,No essay title,19,Mass Deportations,1,1,0,0

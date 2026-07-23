@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560" role="img" aria-labelledby="title desc">
+  <title id="title">Left-only frequency by sentence-5 wording</title>
+  <desc id="desc">Five arms compared under the primary three-label and robustness four-label judges, with topic-level 95 percent intervals.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #172033; }
+    .title { font-size: 24px; font-weight: 600; }
+    .subtitle, .tick, .legend { font-size: 14px; fill: #536078; }
+    .label { font-size: 16px; font-weight: 600; }
+    .value { font-size: 13px; font-variant-numeric: tabular-nums; }
+    .grid { stroke: #d9dee8; stroke-width: 1; }
+    .ci { stroke-width: 3; }
+    .ci.primary { stroke: #1769aa; }
+    .ci.robust { stroke: #b15518; }
+    .point.primary { fill: #1769aa; }
+    .point.robust { fill: #b15518; }
+  </style>
+  <text x="190" y="32" class="title">Left-only frequency by wording</text>
+  <text x="190" y="55" class="subtitle">Points are arm means; lines are topic-level 95% intervals</text>
+  
+  <line x1="190" y1="68" x2="190" y2="470" class="grid"/>
+  <text x="190" y="498" text-anchor="middle" class="tick">0%</text>
+  <line x1="330" y1="68" x2="330" y2="470" class="grid"/>
+  <text x="330" y="498" text-anchor="middle" class="tick">20%</text>
+  <line x1="470" y1="68" x2="470" y2="470" class="grid"/>
+  <text x="470" y="498" text-anchor="middle" class="tick">40%</text>
+  <line x1="610" y1="68" x2="610" y2="470" class="grid"/>
+  <text x="610" y="498" text-anchor="middle" class="tick">60%</text>
+  <line x1="750" y1="68" x2="750" y2="470" class="grid"/>
+  <text x="750" y="498" text-anchor="middle" class="tick">80%</text>
+  <line x1="890" y1="68" x2="890" y2="470" class="grid"/>
+  <text x="890" y="498" text-anchor="middle" class="tick">100%</text>
+  
+    <text x="172" y="121" text-anchor="end" class="label">No sentence 5</text>
+    <line x1="345.37455360455" y1="109" x2="587.2570253428185" y2="109" class="ci primary"/>
+    <circle cx="466.3157894736842" cy="109" r="6" class="point primary"/>
+    <text x="478.3157894736842" y="113" class="value">39.5%</text>
+    <line x1="434.2573381762584" y1="129" x2="724.0321355079523" y2="129" class="ci robust"/>
+    <path d="M 579.1447368421052 122 l 7 7 l -7 7 l -7 -7 z" class="point robust"/>
+    <text x="591.1447368421052" y="133" class="value">55.6%</text>
+    <text x="172" y="204" text-anchor="end" class="label">Essay</text>
+    <line x1="434.9705645370616" y1="192" x2="700.2925933576753" y2="192" class="ci primary"/>
+    <circle cx="567.6315789473684" cy="192" r="6" class="point primary"/>
+    <text x="579.6315789473684" y="196" class="value">53.9%</text>
+    <line x1="537.4199514954662" y1="212" x2="814.2905748203232" y2="212" class="ci robust"/>
+    <path d="M 675.8552631578948 205 l 7 7 l -7 7 l -7 -7 z" class="point robust"/>
+    <text x="687.8552631578948" y="216" class="value">69.4%</text>
+    <text x="172" y="287" text-anchor="end" class="label">Output</text>
+    <line x1="369.0916233965995" y1="275" x2="604.9873239718216" y2="275" class="ci primary"/>
+    <circle cx="487.0394736842105" cy="275" r="6" class="point primary"/>
+    <text x="499.0394736842105" y="279" class="value">42.4%</text>
+    <line x1="455.2314333687464" y1="295" x2="739.900145578622" y2="295" class="ci robust"/>
+    <path d="M 597.5657894736842 288 l 7 7 l -7 7 l -7 -7 z" class="point robust"/>
+    <text x="609.5657894736842" y="299" class="value">58.2%</text>
+    <text x="172" y="370" text-anchor="end" class="label">Response</text>
+    <line x1="369.79570567656475" y1="358" x2="608.888504849751" y2="358" class="ci primary"/>
+    <circle cx="489.3421052631579" cy="358" r="6" class="point primary"/>
+    <text x="501.3421052631579" y="362" class="value">42.8%</text>
+    <line x1="444.3407852888183" y1="378" x2="727.7644778690764" y2="378" class="ci robust"/>
+    <path d="M 586.0526315789473 371 l 7 7 l -7 7 l -7 -7 z" class="point robust"/>
+    <text x="598.0526315789473" y="382" class="value">56.6%</text>
+    <text x="172" y="453" text-anchor="end" class="label">Heading</text>
+    <line x1="370.4172399442906" y1="441" x2="608.2669705820251" y2="441" class="ci primary"/>
+    <circle cx="489.3421052631579" cy="441" r="6" class="point primary"/>
+    <text x="501.3421052631579" y="445" class="value">42.8%</text>
+    <line x1="467.9186542075398" y1="461" x2="750.2392405293023" y2="461" class="ci robust"/>
+    <path d="M 609.078947368421 454 l 7 7 l -7 7 l -7 -7 z" class="point robust"/>
+    <text x="621.078947368421" y="465" class="value">59.9%</text>
+  <circle cx="190" cy="530" r="6" class="point primary"/>
+  <text x="204" y="535" class="legend">Three-label primary judge</text>
+  <path d="M 416 523 l 7 7 l -7 7 l -7 -7 z" class="point robust"/>
+  <text x="430" y="535" class="legend">Four-label robustness judge</text>
+</svg>

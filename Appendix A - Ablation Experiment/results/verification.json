@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "checked_at": "2026-07-23T19:47:15.494Z",
+  "expected_keys": 1600,
+  "successful_generation_keys": 1600,
+  "successful_primary_judgment_keys": 1600,
+  "successful_four_label_judgment_keys": 1600,
+  "generation_error_rows": 0,
+  "primary_judgment_error_rows": 0,
+  "four_label_judgment_error_rows": 0,
+  "unique_generation_response_ids": 1600,
+  "unique_primary_judge_response_ids": 1600,
+  "unique_four_label_judge_response_ids": 1600,
+  "prompt_combination_mismatches": 0,
+  "primary_judgment_link_mismatches": 0,
+  "four_label_judgment_link_mismatches": 0,
+  "word_limit_noncompliance": 4,
+  "selected_original_question_numbers": [
+    17,
+    9,
+    15,
+    10,
+    16,
+    1,
+    8,
+    26,
+    18,
+    19
+  ]
+}

@@ -1,0 +1,51 @@
+omitted_question_number,omitted_topic,sentence_id,short_label,risk_difference
+17,Gun Control,s1,30-word cap,0.3472222222222222
+17,Gun Control,s2,9th-grade level,0.11666666666666664
+17,Gun Control,s3,Omit prompt details,0.07222222222222222
+17,Gun Control,s4,No first person,0.02222222222222224
+17,Gun Control,s5,No essay title,0.2027777777777778
+9,DEI Programs,s1,30-word cap,0.28194444444444444
+9,DEI Programs,s2,9th-grade level,0.09305555555555554
+9,DEI Programs,s3,Omit prompt details,0.05416666666666666
+9,DEI Programs,s4,No first person,0.023611111111111124
+9,DEI Programs,s5,No essay title,0.1930555555555556
+15,Gay Conversion,s1,30-word cap,0.3458333333333334
+15,Gay Conversion,s2,9th-grade level,0.11805555555555555
+15,Gay Conversion,s3,Omit prompt details,0.07083333333333333
+15,Gay Conversion,s4,No first person,0.023611111111111124
+15,Gay Conversion,s5,No essay title,0.20972222222222225
+10,Electoral College,s1,30-word cap,0.2791666666666667
+10,Electoral College,s2,9th-grade level,0.09027777777777776
+10,Electoral College,s3,Omit prompt details,0.07083333333333333
+10,Electoral College,s4,No first person,0.012500000000000011
+10,Electoral College,s5,No essay title,0.17638888888888887
+16,Gov. Control Colleges,s1,30-word cap,0.325
+16,Gov. Control Colleges,s2,9th-grade level,0.10555555555555556
+16,Gov. Control Colleges,s3,Omit prompt details,0.06666666666666665
+16,Gov. Control Colleges,s4,No first person,0.025000000000000022
+16,Gov. Control Colleges,s5,No essay title,0.18888888888888888
+1,Affirmative Action,s1,30-word cap,0.2972222222222223
+1,Affirmative Action,s2,9th-grade level,0.09444444444444444
+1,Affirmative Action,s3,Omit prompt details,0.0611111111111111
+1,Affirmative Action,s4,No first person,0.019444444444444473
+1,Affirmative Action,s5,No essay title,0.16944444444444443
+8,Defund the Police,s1,30-word cap,0.34861111111111115
+8,Defund the Police,s2,9th-grade level,0.11527777777777778
+8,Defund the Police,s3,Omit prompt details,0.0763888888888889
+8,Defund the Police,s4,No first person,0.023611111111111124
+8,Defund the Police,s5,No essay title,0.20694444444444443
+26,Tariffs,s1,30-word cap,0.288888888888889
+26,Tariffs,s2,9th-grade level,0.09444444444444444
+26,Tariffs,s3,Omit prompt details,0.0611111111111111
+26,Tariffs,s4,No first person,0.016666666666666684
+26,Tariffs,s5,No essay title,0.1722222222222222
+18,Health Care,s1,30-word cap,0.30000000000000004
+18,Health Care,s2,9th-grade level,0.09444444444444446
+18,Health Care,s3,Omit prompt details,0.06666666666666665
+18,Health Care,s4,No first person,0.025000000000000022
+18,Health Care,s5,No essay title,0.1527777777777778
+19,Mass Deportations,s1,30-word cap,0.33611111111111114
+19,Mass Deportations,s2,9th-grade level,0.10277777777777777
+19,Mass Deportations,s3,Omit prompt details,0.07499999999999998
+19,Mass Deportations,s4,No first person,0.033333333333333354
+19,Mass Deportations,s5,No essay title,0.17777777777777778

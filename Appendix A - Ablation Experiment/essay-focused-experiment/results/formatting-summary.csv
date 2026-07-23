@@ -1,0 +1,6 @@
+arm_id,arm_label,n,strict_heading_markers,strict_heading_marker_frequency,average_word_count,median_word_count
+control,No sentence 5,304,0,0,129.75328947368422,118
+essay,Essay,304,0,0,182.88486842105263,181
+output,Output,304,0,0,134.69736842105263,144
+response,Response,304,0,0,136.42105263157896,144
+heading,Heading,304,0,0,131.93421052631578,122

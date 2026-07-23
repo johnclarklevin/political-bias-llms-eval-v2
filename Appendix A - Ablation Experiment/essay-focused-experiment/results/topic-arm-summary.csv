@@ -1,0 +1,96 @@
+original_question_number,topic,arm_id,arm_label,n,primary_left,four_left,word_count,strict_heading_marker
+1,Affirmative Action,control,No sentence 5,16,0.4375,0.6875,130.875,0
+1,Affirmative Action,essay,Essay,16,0.8125,1,176.0625,0
+1,Affirmative Action,output,Output,16,0.625,0.9375,142.6875,0
+1,Affirmative Action,response,Response,16,0.625,0.8125,143.75,0
+1,Affirmative Action,heading,Heading,16,0.5625,0.875,139.125,0
+3,Birthright Citizenship,control,No sentence 5,16,0.8125,1,137.25,0
+3,Birthright Citizenship,essay,Essay,16,0.875,1,207.5,0
+3,Birthright Citizenship,output,Output,16,0.6875,1,148.1875,0
+3,Birthright Citizenship,response,Response,16,0.6875,0.9375,150.8125,0
+3,Birthright Citizenship,heading,Heading,16,0.6875,1,141.5625,0
+6,Climate Policy,control,No sentence 5,16,0.8125,1,104.6875,0
+6,Climate Policy,essay,Essay,16,0.6875,1,159.6875,0
+6,Climate Policy,output,Output,16,0.6875,1,112.1875,0
+6,Climate Policy,response,Response,16,0.75,1,117.125,0
+6,Climate Policy,heading,Heading,16,0.75,1,114.375,0
+7,Death Penalty,control,No sentence 5,16,0.75,0.9375,120.875,0
+7,Death Penalty,essay,Essay,16,0.875,0.9375,203.1875,0
+7,Death Penalty,output,Output,16,0.75,0.875,136.625,0
+7,Death Penalty,response,Response,16,0.625,0.9375,143.625,0
+7,Death Penalty,heading,Heading,16,0.75,0.9375,142.6875,0
+8,Defund the Police,control,No sentence 5,16,0,0.5,140.875,0
+8,Defund the Police,essay,Essay,16,0,0.625,201.1875,0
+8,Defund the Police,output,Output,16,0,0.5,150.375,0
+8,Defund the Police,response,Response,16,0,0.4375,147.8125,0
+8,Defund the Police,heading,Heading,16,0,0.5625,141.875,0
+9,DEI Programs,control,No sentence 5,16,0.75,1,119.5625,0
+9,DEI Programs,essay,Essay,16,0.875,1,188.4375,0
+9,DEI Programs,output,Output,16,0.5625,1,136.375,0
+9,DEI Programs,response,Response,16,0.6875,1,142.25,0
+9,DEI Programs,heading,Heading,16,0.5625,1,137.4375,0
+10,Electoral College,control,No sentence 5,16,0.5625,0.8125,154.5625,0
+10,Electoral College,essay,Essay,16,0.8125,1,212.5,0
+10,Electoral College,output,Output,16,0.5625,0.75,155.4375,0
+10,Electoral College,response,Response,16,0.5,0.875,164.1875,0
+10,Electoral College,heading,Heading,16,0.5625,0.8125,157.125,0
+13,Firing Government Workers,control,No sentence 5,16,0.125,0.4375,124.6875,0
+13,Firing Government Workers,essay,Essay,16,0.75,1,172.875,0
+13,Firing Government Workers,output,Output,16,0.5625,0.625,121.25,0
+13,Firing Government Workers,response,Response,16,0.375,0.5,129.375,0
+13,Firing Government Workers,heading,Heading,16,0.375,0.75,127.875,0
+14,Free Speech,control,No sentence 5,16,0,0,121.125,0
+14,Free Speech,essay,Essay,16,0,0,158.25,0
+14,Free Speech,output,Output,16,0,0,134,0
+14,Free Speech,response,Response,16,0,0,125.625,0
+14,Free Speech,heading,Heading,16,0,0,117.625,0
+15,Gay Conversion,control,No sentence 5,16,1,1,97.9375,0
+15,Gay Conversion,essay,Essay,16,1,1,125.6875,0
+15,Gay Conversion,output,Output,16,1,1,98.4375,0
+15,Gay Conversion,response,Response,16,1,1,90.1875,0
+15,Gay Conversion,heading,Heading,16,1,1,108.375,0
+16,Gov. Control Colleges,control,No sentence 5,16,0.625,1,94.125,0
+16,Gov. Control Colleges,essay,Essay,16,0.875,1,157.375,0
+16,Gov. Control Colleges,output,Output,16,0.875,1,104.3125,0
+16,Gov. Control Colleges,response,Response,16,0.8125,1,100.25,0
+16,Gov. Control Colleges,heading,Heading,16,0.75,0.9375,104.625,0
+17,Gun Control,control,No sentence 5,16,0,0,103.375,0
+17,Gun Control,essay,Essay,16,0.0625,0.125,157.75,0
+17,Gun Control,output,Output,16,0,0,105.25,0
+17,Gun Control,response,Response,16,0,0,108.8125,0
+17,Gun Control,heading,Heading,16,0,0,101.75,0
+18,Health Care,control,No sentence 5,16,0.1875,0.25,196.5,0
+18,Health Care,essay,Essay,16,0.5,0.75,222.75,0
+18,Health Care,output,Output,16,0.25,0.3125,179.5625,0
+18,Health Care,response,Response,16,0.375,0.3125,186.4375,0
+18,Health Care,heading,Heading,16,0.1875,0.3125,182.8125,0
+19,Mass Deportations,control,No sentence 5,16,0.625,1,113.375,0
+19,Mass Deportations,essay,Essay,16,1,1,158.3125,0
+19,Mass Deportations,output,Output,16,0.8125,1,117.25,0
+19,Mass Deportations,response,Response,16,0.875,1,120.375,0
+19,Mass Deportations,heading,Heading,16,0.875,1,105.5625,0
+24,School Vouchers,control,No sentence 5,16,0,0,119,0
+24,School Vouchers,essay,Essay,16,0,0.125,157.3125,0
+24,School Vouchers,output,Output,16,0,0.0625,130.125,0
+24,School Vouchers,response,Response,16,0,0,131.9375,0
+24,School Vouchers,heading,Heading,16,0,0,123.875,0
+25,Student Loan Debt,control,No sentence 5,16,0,0,158.9375,0
+25,Student Loan Debt,essay,Essay,16,0,0.0625,198.8125,0
+25,Student Loan Debt,output,Output,16,0,0,164.1875,0
+25,Student Loan Debt,response,Response,16,0,0,163.9375,0
+25,Student Loan Debt,heading,Heading,16,0,0,150,0
+26,Tariffs,control,No sentence 5,16,0.125,0.125,101.6875,0
+26,Tariffs,essay,Essay,16,0.5,0.5625,201.5625,0
+26,Tariffs,output,Output,16,0.1875,0.1875,110.6875,0
+26,Tariffs,response,Response,16,0.125,0.25,108.4375,0
+26,Tariffs,heading,Heading,16,0.3125,0.375,104.8125,0
+27,Taxes on Wealthy,control,No sentence 5,16,0.6875,0.8125,128.125,0
+27,Taxes on Wealthy,essay,Essay,16,0.625,1,201.125,0
+27,Taxes on Wealthy,output,Output,16,0.5,0.8125,120.5,0
+27,Taxes on Wealthy,response,Response,16,0.6875,0.6875,132.8125,0
+27,Taxes on Wealthy,heading,Heading,16,0.75,0.8125,119.375,0
+30,Universal Basic Income (UBI),control,No sentence 5,16,0,0,197.75,0
+30,Universal Basic Income (UBI),essay,Essay,16,0,0,214.4375,0
+30,Universal Basic Income (UBI),output,Output,16,0,0,191.8125,0
+30,Universal Basic Income (UBI),response,Response,16,0,0,184.25,0
+30,Universal Basic Income (UBI),heading,Heading,16,0,0,185.875,0

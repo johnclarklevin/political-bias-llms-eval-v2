@@ -1,0 +1,19 @@
+{
+  "name": "gpt55-prompt-ablation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build-inputs": "node code/build-inputs.mjs",
+    "run": "node code/experiment.mjs run",
+    "rejudge-four-label": "node code/rejudge-four-label.mjs run",
+    "analyze": "node code/analyze.mjs",
+    "verify": "node code/verify.mjs",
+    "chart": "node code/render-charts.mjs",
+    "checksums": "node code/checksums.mjs",
+    "all": "npm run build-inputs && npm run run && npm run rejudge-four-label && npm run analyze && npm run verify && npm run chart && npm run checksums"
+  }
+}

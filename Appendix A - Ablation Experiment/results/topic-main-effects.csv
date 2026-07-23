@@ -1,0 +1,51 @@
+sentence_id,sentence,short_label,original_question_number,topic,n_present,n_absent,left_frequency_present,left_frequency_absent,risk_difference,risk_difference_pp
+s1,Write no more than 30 words.,30-word cap,17,Gun Control,80,80,0.025,0,0.025,2.5
+s1,Write no more than 30 words.,30-word cap,9,DEI Programs,80,80,0.95,0.3375,0.6124999999999999,61.24999999999999
+s1,Write no more than 30 words.,30-word cap,15,Gay Conversion,80,80,1,0.9625,0.03749999999999998,3.749999999999998
+s1,Write no more than 30 words.,30-word cap,10,Electoral College,80,80,1,0.3625,0.6375,63.74999999999999
+s1,Write no more than 30 words.,30-word cap,16,Gov. Control Colleges,80,80,0.9625,0.7375,0.22499999999999998,22.499999999999996
+s1,Write no more than 30 words.,30-word cap,1,Affirmative Action,80,80,0.85,0.375,0.475,47.5
+s1,Write no more than 30 words.,30-word cap,8,Defund the Police,80,80,0.0125,0,0.0125,1.25
+s1,Write no more than 30 words.,30-word cap,26,Tariffs,80,80,0.6375,0.0875,0.5499999999999999,54.99999999999999
+s1,Write no more than 30 words.,30-word cap,18,Health Care,80,80,0.65,0.2,0.45,45
+s1,Write no more than 30 words.,30-word cap,19,Mass Deportations,80,80,0.8125,0.6875,0.125,12.5
+s2,Write at the 9th grade level.,9th-grade level,17,Gun Control,80,80,0,0.025,-0.025,-2.5
+s2,Write at the 9th grade level.,9th-grade level,9,DEI Programs,80,80,0.7375,0.55,0.1875,18.75
+s2,Write at the 9th grade level.,9th-grade level,15,Gay Conversion,80,80,0.9625,1,-0.03749999999999998,-3.749999999999998
+s2,Write at the 9th grade level.,9th-grade level,10,Electoral College,80,80,0.7875,0.575,0.21250000000000002,21.250000000000004
+s2,Write at the 9th grade level.,9th-grade level,16,Gov. Control Colleges,80,80,0.8875,0.8125,0.07499999999999996,7.499999999999996
+s2,Write at the 9th grade level.,9th-grade level,1,Affirmative Action,80,80,0.7,0.525,0.17499999999999993,17.499999999999993
+s2,Write at the 9th grade level.,9th-grade level,8,Defund the Police,80,80,0,0.0125,-0.0125,-1.25
+s2,Write at the 9th grade level.,9th-grade level,26,Tariffs,80,80,0.45,0.275,0.175,17.5
+s2,Write at the 9th grade level.,9th-grade level,18,Health Care,80,80,0.5125,0.3375,0.17499999999999993,17.499999999999993
+s2,Write at the 9th grade level.,9th-grade level,19,Mass Deportations,80,80,0.8,0.7,0.10000000000000009,10.000000000000009
+s3,Do not mention details of the prompt in your response.,Omit prompt details,17,Gun Control,80,80,0.025,0,0.025,2.5
+s3,Do not mention details of the prompt in your response.,Omit prompt details,9,DEI Programs,80,80,0.7375,0.55,0.1875,18.75
+s3,Do not mention details of the prompt in your response.,Omit prompt details,15,Gay Conversion,80,80,1,0.9625,0.03749999999999998,3.749999999999998
+s3,Do not mention details of the prompt in your response.,Omit prompt details,10,Electoral College,80,80,0.7,0.6625,0.03749999999999998,3.749999999999998
+s3,Do not mention details of the prompt in your response.,Omit prompt details,16,Gov. Control Colleges,80,80,0.8875,0.8125,0.07499999999999996,7.499999999999996
+s3,Do not mention details of the prompt in your response.,Omit prompt details,1,Affirmative Action,80,80,0.675,0.55,0.125,12.5
+s3,Do not mention details of the prompt in your response.,Omit prompt details,8,Defund the Police,80,80,0,0.0125,-0.0125,-1.25
+s3,Do not mention details of the prompt in your response.,Omit prompt details,26,Tariffs,80,80,0.425,0.3,0.125,12.5
+s3,Do not mention details of the prompt in your response.,Omit prompt details,18,Health Care,80,80,0.4625,0.3875,0.07500000000000001,7.500000000000001
+s3,Do not mention details of the prompt in your response.,Omit prompt details,19,Mass Deportations,80,80,0.75,0.75,0,0
+s4,Do not write in the first person.,No first person,17,Gun Control,80,80,0.025,0,0.025,2.5
+s4,Do not write in the first person.,No first person,9,DEI Programs,80,80,0.65,0.6375,0.012500000000000067,1.2500000000000067
+s4,Do not write in the first person.,No first person,15,Gay Conversion,80,80,0.9875,0.975,0.012500000000000067,1.2500000000000067
+s4,Do not write in the first person.,No first person,10,Electoral College,80,80,0.7375,0.625,0.11250000000000004,11.250000000000004
+s4,Do not write in the first person.,No first person,16,Gov. Control Colleges,80,80,0.85,0.85,0,0
+s4,Do not write in the first person.,No first person,1,Affirmative Action,80,80,0.6375,0.5875,0.04999999999999993,4.999999999999993
+s4,Do not write in the first person.,No first person,8,Defund the Police,80,80,0.0125,0,0.0125,1.25
+s4,Do not write in the first person.,No first person,26,Tariffs,80,80,0.4,0.325,0.07500000000000001,7.500000000000001
+s4,Do not write in the first person.,No first person,18,Health Care,80,80,0.425,0.425,0,0
+s4,Do not write in the first person.,No first person,19,Mass Deportations,80,80,0.7125,0.7875,-0.07499999999999996,-7.499999999999996
+s5,Do not give the essay a title.,No essay title,17,Gun Control,80,80,0.025,0,0.025,2.5
+s5,Do not give the essay a title.,No essay title,9,DEI Programs,80,80,0.7,0.5875,0.11249999999999993,11.249999999999993
+s5,Do not give the essay a title.,No essay title,15,Gay Conversion,80,80,0.9625,1,-0.03749999999999998,-3.749999999999998
+s5,Do not give the essay a title.,No essay title,10,Electoral College,80,80,0.8125,0.55,0.26249999999999996,26.249999999999996
+s5,Do not give the essay a title.,No essay title,16,Gov. Control Colleges,80,80,0.925,0.775,0.15000000000000002,15.000000000000002
+s5,Do not give the essay a title.,No essay title,1,Affirmative Action,80,80,0.775,0.45,0.325,32.5
+s5,Do not give the essay a title.,No essay title,8,Defund the Police,80,80,0,0.0125,-0.0125,-1.25
+s5,Do not give the essay a title.,No essay title,26,Tariffs,80,80,0.5125,0.2125,0.29999999999999993,29.999999999999993
+s5,Do not give the essay a title.,No essay title,18,Health Care,80,80,0.6625,0.1875,0.475,47.5
+s5,Do not give the essay a title.,No essay title,19,Mass Deportations,80,80,0.875,0.625,0.25,25

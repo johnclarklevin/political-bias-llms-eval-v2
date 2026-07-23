@@ -1,0 +1,36 @@
+{
+  "planned_responses": 1600,
+  "matched_successful_responses": 1600,
+  "unique_keys": 1600,
+  "factorial_cells": 320,
+  "expected_factorial_cells": 320,
+  "repetitions_per_cell": 5,
+  "unbalanced_cells": [],
+  "generation_models": [
+    "gpt-5.5-2026-04-23"
+  ],
+  "judge_models": [
+    "gpt-5.6-sol"
+  ],
+  "unique_generation_response_ids": 1600,
+  "unique_judge_response_ids": 1600,
+  "word_limit_compliance": {
+    "n": 800,
+    "compliant": 796,
+    "rate": 0.995
+  },
+  "four_label_robustness": {
+    "matched_judgments": 1600,
+    "unique_judge_response_ids": 1600,
+    "counts": {
+      "left": 1179,
+      "both": 396,
+      "right": 2,
+      "none": 23
+    },
+    "disagreements_with_primary": 379
+  },
+  "generation_error_rows": 0,
+  "judgment_error_rows": 0,
+  "four_label_judgment_error_rows": 0
+}

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850" role="img" aria-label="Forest plot of the five system-prompt sentence effects on GPT-5.5 left-only frequency.">
+<rect x="0" y="0" width="1500" height="850" fill="#FFFFFF" />
+<text x="70" y="78" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="500" fill="#20242B" text-anchor="start">Which system-prompt sentences change left-only frequency?</text>
+<text x="70" y="122" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#677080" text-anchor="start">Complete 2⁵ factorial · 10 randomly sampled No Fringe topics · five repetitions per cell</text>
+<text x="70" y="160" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#677080" text-anchor="start">Dots are marginal risk differences; lines are conservative 95% topic-level intervals.</text>
+<text x="400" y="202" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#677080" text-anchor="end">Decreases left-only</text>
+<text x="1310" y="202" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#677080" text-anchor="start">Increases left-only</text>
+<line x1="420" y1="210" x2="420" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="420" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">-50 pp</text>
+<line x1="507" y1="210" x2="507" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="507" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">-40 pp</text>
+<line x1="594" y1="210" x2="594" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="594" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">-30 pp</text>
+<line x1="681" y1="210" x2="681" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="681" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">-20 pp</text>
+<line x1="768" y1="210" x2="768" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="768" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">-10 pp</text>
+<line x1="855" y1="210" x2="855" y2="720" stroke="#20242B" stroke-width="3" />
+<text x="855" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">0 pp</text>
+<line x1="942" y1="210" x2="942" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="942" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">+10 pp</text>
+<line x1="1029" y1="210" x2="1029" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="1029" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">+20 pp</text>
+<line x1="1116" y1="210" x2="1116" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="1116" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">+30 pp</text>
+<line x1="1203" y1="210" x2="1203" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="1203" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">+40 pp</text>
+<line x1="1290" y1="210" x2="1290" y2="720" stroke="#D9DDE5" stroke-width="1" />
+<text x="1290" y="762" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="middle">+50 pp</text>
+<text x="70" y="254" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#20242B" text-anchor="start">S1 · 30-word cap</text>
+<text x="70" y="286" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="start">69.0% present vs 37.5% absent</text>
+<line x1="969.9215334471323" y1="262" x2="1288.1784665528678" y2="262" stroke="#6D45B5" stroke-width="6" stroke-linecap="round"/>
+<line x1="969.9215334471323" y1="250" x2="969.9215334471323" y2="274" stroke="#6D45B5" stroke-width="4" />
+<line x1="1288.1784665528678" y1="250" x2="1288.1784665528678" y2="274" stroke="#6D45B5" stroke-width="4" />
+<circle cx="1129.05" cy="262" r="11" fill="#6D45B5" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1304.1784665528678" y="269" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#6D45B5" text-anchor="start">+31.5 pp</text>
+<text x="70" y="354" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#20242B" text-anchor="start">S5 · No essay title</text>
+<text x="70" y="386" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="start">62.5% present vs 44.0% absent</text>
+<line x1="912.6910739990085" y1="362" x2="1119.2089260009916" y2="362" stroke="#6D45B5" stroke-width="6" stroke-linecap="round"/>
+<line x1="912.6910739990085" y1="350" x2="912.6910739990085" y2="374" stroke="#6D45B5" stroke-width="4" />
+<line x1="1119.2089260009916" y1="350" x2="1119.2089260009916" y2="374" stroke="#6D45B5" stroke-width="4" />
+<circle cx="1015.95" cy="362" r="11" fill="#6D45B5" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1135.2089260009916" y="369" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#6D45B5" text-anchor="start">+18.5 pp</text>
+<text x="70" y="454" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#20242B" text-anchor="start">S2 · 9th-grade level</text>
+<text x="70" y="486" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="start">58.4% present vs 48.1% absent</text>
+<line x1="883.7146705842047" y1="462" x2="1004.6353294157952" y2="462" stroke="#6D45B5" stroke-width="6" stroke-linecap="round"/>
+<line x1="883.7146705842047" y1="450" x2="883.7146705842047" y2="474" stroke="#6D45B5" stroke-width="4" />
+<line x1="1004.6353294157952" y1="450" x2="1004.6353294157952" y2="474" stroke="#6D45B5" stroke-width="4" />
+<circle cx="944.1750000000001" cy="462" r="11" fill="#6D45B5" stroke="#FFFFFF" stroke-width="3"/>
+<text x="1020.6353294157952" y="469" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#6D45B5" text-anchor="start">+10.3 pp</text>
+<text x="70" y="554" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#20242B" text-anchor="start">S3 · Omit prompt details</text>
+<text x="70" y="586" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="start">56.6% present vs 49.9% absent</text>
+<line x1="874.5346777248496" y1="562" x2="952.9153222751503" y2="562" stroke="#6D45B5" stroke-width="6" stroke-linecap="round"/>
+<line x1="874.5346777248496" y1="550" x2="874.5346777248496" y2="574" stroke="#6D45B5" stroke-width="4" />
+<line x1="952.9153222751503" y1="550" x2="952.9153222751503" y2="574" stroke="#6D45B5" stroke-width="4" />
+<circle cx="913.725" cy="562" r="11" fill="#6D45B5" stroke="#FFFFFF" stroke-width="3"/>
+<text x="968.9153222751503" y="569" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#6D45B5" text-anchor="start">+6.7 pp</text>
+<text x="70" y="654" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="500" fill="#20242B" text-anchor="start">S4 · No first person</text>
+<text x="70" y="686" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#677080" text-anchor="start">54.4% present vs 52.1% absent</text>
+<line x1="843.5002241245296" y1="662" x2="905.6497758754704" y2="662" stroke="#6D45B5" stroke-width="6" stroke-linecap="round"/>
+<line x1="843.5002241245296" y1="650" x2="843.5002241245296" y2="674" stroke="#6D45B5" stroke-width="4" />
+<line x1="905.6497758754704" y1="650" x2="905.6497758754704" y2="674" stroke="#6D45B5" stroke-width="4" />
+<circle cx="874.575" cy="662" r="11" fill="#6D45B5" stroke="#FFFFFF" stroke-width="3"/>
+<text x="921.6497758754704" y="669" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" fill="#6D45B5" text-anchor="start">+2.3 pp</text>
+<text x="70" y="814" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#677080" text-anchor="start">Positive = including the sentence increased left-only classifications. Familywise inference uses Holm-adjusted exact sign-flip tests.</text>
+</svg>

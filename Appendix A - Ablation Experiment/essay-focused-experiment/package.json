@@ -1,0 +1,17 @@
+{
+  "name": "gpt55-sentence5-focused-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build-inputs": "node code/build-inputs.mjs",
+    "run": "node code/experiment.mjs run",
+    "analyze": "node code/analyze.mjs",
+    "verify": "node code/verify.mjs",
+    "chart": "node code/render-charts.mjs",
+    "checksums": "node code/checksums.mjs"
+  }
+}

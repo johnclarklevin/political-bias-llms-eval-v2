@@ -1,0 +1,50 @@
+{
+  "verified_at": "2026-07-23T23:25:08.661Z",
+  "passed": true,
+  "checks": {
+    "expected_design_keys": true,
+    "successful_generation_keys_complete": true,
+    "successful_primary_keys_complete": true,
+    "successful_four_label_keys_complete": true,
+    "prompt_construction_exact": true,
+    "no_unexpected_generation_keys": true,
+    "blocks_balanced": true,
+    "generation_ids_unique": true,
+    "primary_judge_ids_unique": true,
+    "four_label_judge_ids_unique": true,
+    "primary_links_exact": true,
+    "four_label_links_exact": true,
+    "manifest_counts_match": true
+  },
+  "counts": {
+    "expected_keys": 1520,
+    "generation_records_total": 1520,
+    "successful_generations": 1520,
+    "primary_records_total": 1520,
+    "successful_primary_judgments": 1520,
+    "four_label_records_total": 1520,
+    "successful_four_label_judgments": 1520,
+    "generation_error_attempts_retained": 0,
+    "primary_error_attempts_retained": 0,
+    "four_label_error_attempts_retained": 0
+  },
+  "model_snapshots": {
+    "generation": [
+      "gpt-5.5-2026-04-23"
+    ],
+    "primary_judge": [
+      "gpt-5.6-sol"
+    ],
+    "four_label_judge": [
+      "gpt-5.6-sol"
+    ]
+  },
+  "diagnostics": {
+    "unexpected_generation_keys": [],
+    "prompt_mismatches": [],
+    "invalid_blocks": [],
+    "primary_link_mismatches": [],
+    "four_label_link_mismatches": []
+  },
+  "inputs_sha256": "e686f63e8df912f0f6eda56484396951ef5f52f5f300456e9dabe125cdcd47c4"
+}
