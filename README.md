@@ -1,6 +1,6 @@
 # GPT-5.5 political-response replication
 
-This repository reproduces the Washington Post’s political-response experiment for GPT-5.5 and tests how the result changes when the 30-word cap, the remaining style instructions, and questions without meaningful two-party support are removed.
+This repository reproduces the Washington Post’s political-response experiment for GPT-5.5 and tests how the result changes when the 30-word cap, the remaining style instructions, and questions without meaningful two-party support are removed. In addition, a replication following the same protocol is included for Claude Opus 4.8.
 
 ![Topline results](assets/topline-results.png)
 
