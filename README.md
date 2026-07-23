@@ -43,6 +43,7 @@ The Post’s annotation code also permits an implicit fourth outcome, `none`, wh
 - [Data-integrity checks](code/verify.mjs)
 - [Judge-validation harness](code/validate-judge.mjs)
 - [Four-label re-judge harness](code/rejudge-four-label.mjs)
+- [Claude Opus 4.8 replication](claude-opus-4-8-political-response-replication)
 
 ## Reproduce the API experiment
 
