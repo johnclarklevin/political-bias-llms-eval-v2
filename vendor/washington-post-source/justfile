@@ -1,0 +1,84 @@
+help:
+    @just --list
+
+# Start observable framework
+dev:
+    npm run dev
+
+# Install dependencies
+install:
+    npm install
+    # Set up a symlink so that data also appears inside of observable/data
+    cd observable && ln -s ../data data
+
+# View the Inspect dashboard
+inspect:
+    uv run inspect view
+
+# Download ModelSlant study results data into data/raw/
+download-modelslant-study:
+    mkdir -p data/raw
+    curl -fsSL https://modelslant.com/output_models.json -o data/raw/output_models.json
+    curl -fsSL https://modelslant.com/output_topics.json -o data/raw/output_topics.json
+    curl -fsSL https://modelslant.com/output_providers.json -o data/raw/output_providers.json
+    @echo "Downloaded and extracted ModelSlant data to data/raw/"
+
+# Run the model-slant eval against a given model, e.g. `just eval-modelslant openai/gpt-5.5`
+eval-modelslant model *args:
+    INSPECT_CACHE_DIR=./cache uv run inspect eval scripts/model_slant_eval.py --cache "1Y" --model {{model}} {{args}}
+
+# Run the model-slant eval against my model list
+eval-modelslant-all:
+    just eval-modelslant openai/gpt-5.5
+    just eval-modelslant anthropic/claude-opus-4-8
+    just eval-modelslant google/gemini-3.1-pro-preview
+    just eval-modelslant openrouter/deepseek/deepseek-v4-pro -M "provider={'only':['deepseek']}"
+    just eval-modelslant openrouter/x-ai/grok-4.3 -M "provider={'only':['xai']}"
+    OPENAI_API_KEY=$GAB_API_KEY just eval-modelslant openai/arya --model-base-url https://gab.ai/v1
+
+# Run the model-slant eval with LLM-as-judge, e.g. `just eval-modelslant-llm openai/gpt-5.5` or with a custom judge: `just eval-modelslant-llm openai/gpt-5.5 openai/gpt-4o`
+eval-modelslant-llm model judge="openai/gpt-oss-20b" *args:
+    INSPECT_CACHE_DIR=./cache uv run inspect eval scripts/model_slant_eval.py@model_slant_llm --cache "1Y" --model {{model}} -T judge_model={{judge}} {{args}}
+
+# Rescore a model-slant log with lean_classifier, e.g. `just rescore-modelslant logs/foo.eval`
+rescore-modelslant logfile:
+    INSPECT_CACHE_DIR=./cache uv run inspect score {{logfile}} --scorer scripts/model_slant_eval.py@lean_classifier_manual --action overwrite --overwrite
+
+# Extract per-epoch variance results → data/clean/modelslant-variance.json (run after eval-variance-all)
+extract-variance:
+    uv run ./scripts/extract_variance.py
+
+# Extract raw responses from eval logs → data/clean/modelslant-responses-raw.csv (run before annotating)
+extract-raw-responses:
+    uv run ./scripts/extract_responses.py
+
+# Apply manual annotations to raw responses → data/clean/modelslant-responses.json (run after annotating)
+apply-annotations:
+    uv run ./scripts/apply_annotations.py
+
+# Rescore all model-slant logs, re-extract, and apply annotations (run after annotating)
+rescore-modelslant-all:
+    for f in logs/*_model-slant_*.eval; do just rescore-modelslant "$f"; done
+    just extract-raw-responses
+    just apply-annotations
+
+###
+# Validation/resiliency checks
+###
+
+# Run variance eval (5 epochs, LLM-as-judge) for a model, e.g. `just eval-variance openai/gpt-5.5`
+eval-variance model *args:
+    INSPECT_CACHE_DIR=./cache uv run inspect eval scripts/variance_eval.py --cache "1Y" --model {{model}} --epochs 5 --no-epochs-reducer {{args}}
+
+# Run the variance eval against my model list
+eval-variance-all:
+    just eval-variance openai/gpt-5.5
+    just eval-variance anthropic/claude-opus-4-8
+    just eval-variance google/gemini-3.1-pro-preview
+    just eval-variance openrouter/deepseek/deepseek-v4-pro -M "provider={'only':['deepseek']}"
+    just eval-variance openrouter/x-ai/grok-4.3 -M "provider={'only':['xai']}"
+    OPENAI_API_KEY=$GAB_API_KEY just eval-variance openai/arya --model-base-url https://gab.ai/v1
+
+# Test LLM-as-judge against manually annotated responses, e.g. `just eval-judge openai/gpt-5.5`. Set JUDGE_BASE_URL / JUDGE_API_KEY to use a locally-hosted judge.
+eval-judge model="openai/gpt-oss-20b" *args:
+    INSPECT_CACHE_DIR=./cache uv run inspect eval scripts/judge_eval.py --cache "1Y" -T model={{model}} {{args}}

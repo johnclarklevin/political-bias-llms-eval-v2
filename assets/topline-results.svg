@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1060" viewBox="0 0 1800 1060" role="img" aria-labelledby="title desc">
+  <title id="title">GPT-5.5 political-response classifications</title>
+  <desc id="desc">Five horizontal stacked bars compare left-only, both-sides, and right-only classifications in the Washington Post experiment and four GPT-5.5 comparison arms.</desc>
+  <defs>
+    <style>
+      .title { font: 700 44px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #111827; }
+      .subtitle { font: 400 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #5f6876; }
+      .label { font: 650 25px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #111827; }
+      .meta { font: 400 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #687182; }
+      .axis { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #7b8493; }
+      .barvalue { font: 650 19px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #ffffff; }
+      .detail { font: 500 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #444d5c; }
+      .scope { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #687182; letter-spacing: .2px; }
+    </style>
+    <clipPath id="bar1"><rect x="530" y="280" width="1040" height="54" rx="10"/></clipPath>
+    <clipPath id="bar2"><rect x="530" y="425" width="1040" height="54" rx="10"/></clipPath>
+    <clipPath id="bar3"><rect x="530" y="570" width="1040" height="54" rx="10"/></clipPath>
+    <clipPath id="bar4"><rect x="530" y="715" width="1040" height="54" rx="10"/></clipPath>
+    <clipPath id="bar5"><rect x="530" y="900" width="1040" height="54" rx="10"/></clipPath>
+  </defs>
+
+  <rect width="1800" height="1060" fill="#fbfbfd"/>
+  <text x="60" y="68" class="title">GPT-5.5 political-response classifications</text>
+  <text x="60" y="108" class="subtitle">Share of responses classified as supporting the left only, both sides, or the right only</text>
+
+  <g transform="translate(1040 150)">
+    <rect x="0" y="-15" width="18" height="18" rx="4" fill="#2563eb"/><text x="28" y="0" class="detail">Left-only</text>
+    <rect x="155" y="-15" width="18" height="18" rx="4" fill="#7c3aed"/><text x="183" y="0" class="detail">Both</text>
+    <rect x="273" y="-15" width="18" height="18" rx="4" fill="#dc2626"/><text x="301" y="0" class="detail">Right-only</text>
+  </g>
+
+  <line x1="530" y1="215" x2="1570" y2="215" stroke="#d9dde5" stroke-width="1"/>
+  <g class="axis">
+    <text x="530" y="205" text-anchor="start">0%</text><text x="790" y="205" text-anchor="middle">25%</text>
+    <text x="1050" y="205" text-anchor="middle">50%</text><text x="1310" y="205" text-anchor="middle">75%</text>
+    <text x="1570" y="205" text-anchor="end">100%</text>
+  </g>
+
+  <g>
+    <text x="60" y="298" class="label">Washington Post Experiment</text>
+    <text x="60" y="328" class="meta">main article chart · 30 topics · n = 30</text>
+    <g clip-path="url(#bar1)"><rect x="530" y="280" width="832" height="54" fill="#2563eb"/><rect x="1362" y="280" width="173.68" height="54" fill="#7c3aed"/><rect x="1535.68" y="280" width="34.32" height="54" fill="#dc2626"/></g>
+    <text x="946" y="314" text-anchor="middle" class="barvalue">80.0%</text><text x="1448.84" y="314" text-anchor="middle" class="barvalue">16.7%</text>
+    <g class="detail"><rect x="530" y="353" width="12" height="12" rx="3" fill="#2563eb"/><text x="551" y="364">Left-only 80.0%</text><rect x="835" y="353" width="12" height="12" rx="3" fill="#7c3aed"/><text x="856" y="364">Both 16.7%</text><rect x="1110" y="353" width="12" height="12" rx="3" fill="#dc2626"/><text x="1131" y="364">Right-only 3.3%</text></g>
+  </g>
+
+  <g>
+    <text x="60" y="443" class="label">Replication of WaPo</text>
+    <text x="60" y="473" class="meta">30-word system prompt · 30 topics · n = 150</text>
+    <g clip-path="url(#bar2)"><rect x="530" y="425" width="824.7" height="54" fill="#2563eb"/><rect x="1354.7" y="425" width="152.9" height="54" fill="#7c3aed"/><rect x="1507.6" y="425" width="62.4" height="54" fill="#dc2626"/></g>
+    <text x="942.4" y="459" text-anchor="middle" class="barvalue">79.3%</text><text x="1431.2" y="459" text-anchor="middle" class="barvalue">14.7%</text>
+    <g class="detail"><rect x="530" y="498" width="12" height="12" rx="3" fill="#2563eb"/><text x="551" y="509">Left-only 79.3%</text><rect x="835" y="498" width="12" height="12" rx="3" fill="#7c3aed"/><text x="856" y="509">Both 14.7%</text><rect x="1110" y="498" width="12" height="12" rx="3" fill="#dc2626"/><text x="1131" y="509">Right-only 6.0%</text></g>
+  </g>
+
+  <g>
+    <text x="60" y="588" class="label">No Word Limit</text>
+    <text x="60" y="618" class="meta">style system prompt retained · 30 topics · n = 150</text>
+    <g clip-path="url(#bar3)"><rect x="530" y="570" width="644.8" height="54" fill="#2563eb"/><rect x="1174.8" y="570" width="367.1" height="54" fill="#7c3aed"/><rect x="1541.9" y="570" width="28.1" height="54" fill="#dc2626"/></g>
+    <text x="852.4" y="604" text-anchor="middle" class="barvalue">62.0%</text><text x="1358.4" y="604" text-anchor="middle" class="barvalue">35.3%</text>
+    <g class="detail"><rect x="530" y="643" width="12" height="12" rx="3" fill="#2563eb"/><text x="551" y="654">Left-only 62.0%</text><rect x="835" y="643" width="12" height="12" rx="3" fill="#7c3aed"/><text x="856" y="654">Both 35.3%</text><rect x="1110" y="643" width="12" height="12" rx="3" fill="#dc2626"/><text x="1131" y="654">Right-only 2.7%</text></g>
+  </g>
+
+  <g>
+    <text x="60" y="733" class="label">No System Prompt</text>
+    <text x="60" y="763" class="meta">no system message · 30 topics · n = 150</text>
+    <g clip-path="url(#bar4)"><rect x="530" y="715" width="353.6" height="54" fill="#2563eb"/><rect x="883.6" y="715" width="665.6" height="54" fill="#7c3aed"/><rect x="1549.2" y="715" width="20.8" height="54" fill="#dc2626"/></g>
+    <text x="706.8" y="749" text-anchor="middle" class="barvalue">34.0%</text><text x="1216.4" y="749" text-anchor="middle" class="barvalue">64.0%</text>
+    <g class="detail"><rect x="530" y="788" width="12" height="12" rx="3" fill="#2563eb"/><text x="551" y="799">Left-only 34.0%</text><rect x="835" y="788" width="12" height="12" rx="3" fill="#7c3aed"/><text x="856" y="799">Both 64.0%</text><rect x="1110" y="788" width="12" height="12" rx="3" fill="#dc2626"/><text x="1131" y="799">Right-only 2.0%</text></g>
+  </g>
+
+  <line x1="60" y1="850" x2="1740" y2="850" stroke="#d9dde5" stroke-width="1"/>
+  <text x="60" y="882" class="scope">19 questions meeting the 30% two-party support threshold</text>
+  <g>
+    <text x="60" y="918" class="label">No Fringe Questions</text>
+    <text x="60" y="948" class="meta">original wording · no system message · n = 95</text>
+    <g clip-path="url(#bar5)"><rect x="530" y="900" width="164.2" height="54" fill="#2563eb"/><rect x="694.2" y="900" width="843.2" height="54" fill="#7c3aed"/><rect x="1537.4" y="900" width="32.6" height="54" fill="#dc2626"/></g>
+    <text x="612.1" y="934" text-anchor="middle" class="barvalue">15.8%</text><text x="1115.8" y="934" text-anchor="middle" class="barvalue">81.1%</text>
+    <g class="detail"><rect x="530" y="973" width="12" height="12" rx="3" fill="#2563eb"/><text x="551" y="984">Left-only 15.8%</text><rect x="835" y="973" width="12" height="12" rx="3" fill="#7c3aed"/><text x="856" y="984">Both 81.1%</text><rect x="1110" y="973" width="12" height="12" rx="3" fill="#dc2626"/><text x="1131" y="984">Right-only 3.2%</text></g>
+  </g>
+  <text x="1740" y="1030" text-anchor="end" class="axis">GPT-5.5 responses · GPT-5.6 Sol classifications</text>
+</svg>

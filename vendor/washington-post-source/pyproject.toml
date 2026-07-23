@@ -1,0 +1,19 @@
+[project]
+name = "political-bias-llm-eval"
+version = "0.1.0"
+description = "Evaluating political lean in AI model responses"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.74.1",
+    "google-genai>=1.52.0",
+    "inspect-ai>=0.3.147",
+    "openai>=2.8.1",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+extraPaths = ["."]
