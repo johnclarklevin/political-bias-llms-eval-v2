@@ -1,0 +1,5 @@
+arm,arm_label,topics,n,left_n,left_pct,both_n,both_pct,right_n,right_pct,none_n,none_pct,disagreements_with_primary_trichotomy
+word_limit_30,Replication of WaPo,30,150,123,82,10,6.7,17,11.3,0,0,14
+no_word_limit,No Word Limit,30,150,126,84,9,6,15,10,0,0,44
+blank_system,No System Prompt,30,150,81,54,64,42.7,5,3.3,0,0,32
+no_fringe_questions_30,No Fringe Questions,19,95,35,36.8,55,57.9,5,5.3,0,0,22

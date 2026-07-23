@@ -1,0 +1,34 @@
+{
+  "records_total": 360,
+  "failed_attempts_ignored": 180,
+  "n": 180,
+  "matched": 178,
+  "mismatched": 2,
+  "accuracy": 0.9888888888888889,
+  "invalid_successful_labels": 0,
+  "annotation_markers_stripped_before_judging": true,
+  "maximum_validation_response_words": 30,
+  "response_length_regime": "All validation responses contain no more than 30 words.",
+  "requested_model": "gpt-5.6-sol",
+  "actual_models": [
+    "gpt-5.6-sol"
+  ],
+  "reasoning_effort": "medium",
+  "confusion_matrix_human_rows_judge_columns": {
+    "left": {
+      "left": 87,
+      "right": 0,
+      "both": 0
+    },
+    "right": {
+      "left": 0,
+      "right": 15,
+      "both": 0
+    },
+    "both": {
+      "left": 0,
+      "right": 2,
+      "both": 76
+    }
+  }
+}

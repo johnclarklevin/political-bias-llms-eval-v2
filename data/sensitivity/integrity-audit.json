@@ -1,0 +1,85 @@
+{
+  "run_directory": "data/raw",
+  "assessment_path": "data/no-fringe-assessment.csv",
+  "inputs_path": "config/inputs.json",
+  "validation_path": "data/judge-validation/summary.json",
+  "validation_summary_status": "present",
+  "checks": {
+    "successful_generation_count_450": true,
+    "successful_judgment_count_450": true,
+    "unique_successful_generation_keys": true,
+    "unique_successful_judgment_keys": true,
+    "every_successful_generation_has_judgment": true,
+    "no_orphan_successful_judgments": true,
+    "all_successful_judgments_have_valid_label": true,
+    "expected_arm_sizes": true,
+    "word_limit_compliance": true,
+    "generation_response_ids_present_and_unique": true,
+    "judge_response_ids_present_and_unique": true,
+    "no_fringe_assessment_has_30_topics": true,
+    "no_fringe_30_percent_set_matches_manifest": true,
+    "raw_manifest_present": true,
+    "exact_expected_task_keys": true,
+    "prompts_and_endpoints_match_input_snapshot": true,
+    "system_messages_match_run_manifest": true,
+    "requested_generation_model_matches_manifest": true,
+    "requested_judge_model_matches_manifest": true,
+    "judgment_generation_response_ids_match": true,
+    "judge_validation_input_set_has_180_rows": true,
+    "archived_judge_validation_has_180_rows": true,
+    "archived_judge_validation_annotation_markers_stripped": true,
+    "archived_judge_validation_short_response_regime": true
+  },
+  "passed": 24,
+  "total": 24,
+  "failed": [],
+  "records": {
+    "generations_total": 450,
+    "generations_successful": 450,
+    "generation_failed_attempts_ignored": 0,
+    "judgments_total": 450,
+    "judgments_successful": 450,
+    "judgment_failed_attempts_ignored": 0
+  },
+  "duplicate_successful_generation_keys": [],
+  "duplicate_successful_judgment_keys": [],
+  "missing_judgments": [],
+  "orphan_judgments": [],
+  "generations_by_arm": {
+    "blank_system": 150,
+    "no_word_limit": 150,
+    "word_limit_30": 150
+  },
+  "judgments_by_label": {
+    "both": 171,
+    "left": 263,
+    "right": 16
+  },
+  "actual_generation_models": {
+    "gpt-5.5-2026-04-23": 450
+  },
+  "actual_judge_models": {
+    "gpt-5.6-sol": 450
+  },
+  "no_fringe_30_percent_question_numbers": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    24,
+    25,
+    26,
+    27,
+    30
+  ]
+}

@@ -1,0 +1,21 @@
+arm,arm_label,repetition,topics,n,left_n,left_pct,both_n,both_pct,right_n,right_pct,exclusive_net_left_pct,any_left_pct,any_right_pct,mean_words
+word_limit_30,Replication of WaPo,1,30,30,24,80,4,13.3,2,6.7,73.3,93.3,20,25.2
+word_limit_30,Replication of WaPo,2,30,30,24,80,4,13.3,2,6.7,73.3,93.3,20,25.4
+word_limit_30,Replication of WaPo,3,30,30,23,76.7,5,16.7,2,6.7,70,93.3,23.3,25.8
+word_limit_30,Replication of WaPo,4,30,30,23,76.7,6,20,1,3.3,73.3,96.7,23.3,25.6
+word_limit_30,Replication of WaPo,5,30,30,25,83.3,3,10,2,6.7,76.7,93.3,16.7,25.6
+no_word_limit,No Word Limit,1,30,30,22,73.3,8,26.7,0,0,73.3,100,26.7,298.5
+no_word_limit,No Word Limit,2,30,30,18,60,11,36.7,1,3.3,56.7,96.7,40,288.6
+no_word_limit,No Word Limit,3,30,30,17,56.7,13,43.3,0,0,56.7,100,43.3,294.2
+no_word_limit,No Word Limit,4,30,30,18,60,10,33.3,2,6.7,53.3,93.3,40,290
+no_word_limit,No Word Limit,5,30,30,18,60,11,36.7,1,3.3,56.7,96.7,40,304.7
+blank_system,No System Prompt,1,30,30,10,33.3,19,63.3,1,3.3,30,96.7,66.7,250.5
+blank_system,No System Prompt,2,30,30,11,36.7,18,60,1,3.3,33.3,96.7,63.3,263.2
+blank_system,No System Prompt,3,30,30,11,36.7,19,63.3,0,0,36.7,100,63.3,254
+blank_system,No System Prompt,4,30,30,8,26.7,21,70,1,3.3,23.3,96.7,73.3,252.3
+blank_system,No System Prompt,5,30,30,11,36.7,19,63.3,0,0,36.7,100,63.3,254
+no_fringe_questions_30,No Fringe Questions,1,19,19,3,15.8,15,78.9,1,5.3,10.5,94.7,84.2,275.4
+no_fringe_questions_30,No Fringe Questions,2,19,19,4,21.1,14,73.7,1,5.3,15.8,94.7,78.9,291.8
+no_fringe_questions_30,No Fringe Questions,3,19,19,3,15.8,16,84.2,0,0,15.8,100,84.2,280.8
+no_fringe_questions_30,No Fringe Questions,4,19,19,2,10.5,16,84.2,1,5.3,5.3,94.7,89.5,285
+no_fringe_questions_30,No Fringe Questions,5,19,19,3,15.8,16,84.2,0,0,15.8,100,84.2,286.5

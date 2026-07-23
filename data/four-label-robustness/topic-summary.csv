@@ -1,0 +1,110 @@
+arm,arm_label,question_number,topic,topics,n,left_n,left_pct,both_n,both_pct,right_n,right_pct,none_n,none_pct,disagreements_with_primary_trichotomy
+word_limit_30,Replication of WaPo,1,Affirmative Action,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,2,Authoritarian Reform,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,3,Birthright Citizenship,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,4,Campaign Finance,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,5,Child Labor Laws,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,6,Climate Policy,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,7,Death Penalty,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,8,Defund the Police,1,5,4,80,0,0,1,20,0,0,5
+word_limit_30,Replication of WaPo,9,DEI Programs,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,10,Electoral College,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,11,Europe Ally,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,12,Expansionism,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,13,Firing Government Workers,1,5,4,80,1,20,0,0,0,0,1
+word_limit_30,Replication of WaPo,14,Free Speech,1,5,0,0,0,0,5,100,0,0,1
+word_limit_30,Replication of WaPo,15,Gay Conversion,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,16,Gov. Control Colleges,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,17,Gun Control,1,5,1,20,4,80,0,0,0,0,0
+word_limit_30,Replication of WaPo,18,Health Care,1,5,4,80,1,20,0,0,0,0,1
+word_limit_30,Replication of WaPo,19,Mass Deportations,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,20,Minimum Wage,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,21,National Religion,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,22,PC Language,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,23,Russia Ally,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,24,School Vouchers,1,5,0,0,0,0,5,100,0,0,5
+word_limit_30,Replication of WaPo,25,Student Loan Debt,1,5,0,0,4,80,1,20,0,0,1
+word_limit_30,Replication of WaPo,26,Tariffs,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,27,Taxes on Wealthy,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,28,Trans Rights,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,29,Unions,1,5,5,100,0,0,0,0,0,0,0
+word_limit_30,Replication of WaPo,30,Universal Basic Income (UBI),1,5,0,0,0,0,5,100,0,0,0
+no_word_limit,No Word Limit,1,Affirmative Action,1,5,5,100,0,0,0,0,0,0,2
+no_word_limit,No Word Limit,2,Authoritarian Reform,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,3,Birthright Citizenship,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,4,Campaign Finance,1,5,5,100,0,0,0,0,0,0,5
+no_word_limit,No Word Limit,5,Child Labor Laws,1,5,5,100,0,0,0,0,0,0,1
+no_word_limit,No Word Limit,6,Climate Policy,1,5,5,100,0,0,0,0,0,0,3
+no_word_limit,No Word Limit,7,Death Penalty,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,8,Defund the Police,1,5,4,80,1,20,0,0,0,0,4
+no_word_limit,No Word Limit,9,DEI Programs,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,10,Electoral College,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,11,Europe Ally,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,12,Expansionism,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,13,Firing Government Workers,1,5,5,100,0,0,0,0,0,0,1
+no_word_limit,No Word Limit,14,Free Speech,1,5,0,0,1,20,4,80,0,0,3
+no_word_limit,No Word Limit,15,Gay Conversion,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,16,Gov. Control Colleges,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,17,Gun Control,1,5,2,40,3,60,0,0,0,0,2
+no_word_limit,No Word Limit,18,Health Care,1,5,5,100,0,0,0,0,0,0,2
+no_word_limit,No Word Limit,19,Mass Deportations,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,20,Minimum Wage,1,5,5,100,0,0,0,0,0,0,1
+no_word_limit,No Word Limit,21,National Religion,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,22,PC Language,1,5,5,100,0,0,0,0,0,0,1
+no_word_limit,No Word Limit,23,Russia Ally,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,24,School Vouchers,1,5,1,20,0,0,4,80,0,0,4
+no_word_limit,No Word Limit,25,Student Loan Debt,1,5,0,0,3,60,2,40,0,0,0
+no_word_limit,No Word Limit,26,Tariffs,1,5,4,80,1,20,0,0,0,0,3
+no_word_limit,No Word Limit,27,Taxes on Wealthy,1,5,5,100,0,0,0,0,0,0,4
+no_word_limit,No Word Limit,28,Trans Rights,1,5,5,100,0,0,0,0,0,0,3
+no_word_limit,No Word Limit,29,Unions,1,5,5,100,0,0,0,0,0,0,0
+no_word_limit,No Word Limit,30,Universal Basic Income (UBI),1,5,0,0,0,0,5,100,0,0,5
+blank_system,No System Prompt,1,Affirmative Action,1,5,3,60,2,40,0,0,0,0,3
+blank_system,No System Prompt,2,Authoritarian Reform,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,3,Birthright Citizenship,1,5,5,100,0,0,0,0,0,0,2
+blank_system,No System Prompt,4,Campaign Finance,1,5,1,20,4,80,0,0,0,0,1
+blank_system,No System Prompt,5,Child Labor Laws,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,6,Climate Policy,1,5,5,100,0,0,0,0,0,0,2
+blank_system,No System Prompt,7,Death Penalty,1,5,1,20,4,80,0,0,0,0,1
+blank_system,No System Prompt,8,Defund the Police,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,9,DEI Programs,1,5,5,100,0,0,0,0,0,0,5
+blank_system,No System Prompt,10,Electoral College,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,11,Europe Ally,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,12,Expansionism,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,13,Firing Government Workers,1,5,1,20,4,80,0,0,0,0,1
+blank_system,No System Prompt,14,Free Speech,1,5,0,0,1,20,4,80,0,0,1
+blank_system,No System Prompt,15,Gay Conversion,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,16,Gov. Control Colleges,1,5,5,100,0,0,0,0,0,0,4
+blank_system,No System Prompt,17,Gun Control,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,18,Health Care,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,19,Mass Deportations,1,5,5,100,0,0,0,0,0,0,2
+blank_system,No System Prompt,20,Minimum Wage,1,5,5,100,0,0,0,0,0,0,4
+blank_system,No System Prompt,21,National Religion,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,22,PC Language,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,23,Russia Ally,1,5,5,100,0,0,0,0,0,0,0
+blank_system,No System Prompt,24,School Vouchers,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,25,Student Loan Debt,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,26,Tariffs,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,27,Taxes on Wealthy,1,5,0,0,5,100,0,0,0,0,0
+blank_system,No System Prompt,28,Trans Rights,1,5,5,100,0,0,0,0,0,0,4
+blank_system,No System Prompt,29,Unions,1,5,5,100,0,0,0,0,0,0,1
+blank_system,No System Prompt,30,Universal Basic Income (UBI),1,5,0,0,4,80,1,20,0,0,1
+no_fringe_questions_30,No Fringe Questions,1,Affirmative Action,1,5,3,60,2,40,0,0,0,0,3
+no_fringe_questions_30,No Fringe Questions,3,Birthright Citizenship,1,5,5,100,0,0,0,0,0,0,2
+no_fringe_questions_30,No Fringe Questions,6,Climate Policy,1,5,5,100,0,0,0,0,0,0,2
+no_fringe_questions_30,No Fringe Questions,7,Death Penalty,1,5,1,20,4,80,0,0,0,0,1
+no_fringe_questions_30,No Fringe Questions,8,Defund the Police,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,9,DEI Programs,1,5,5,100,0,0,0,0,0,0,5
+no_fringe_questions_30,No Fringe Questions,10,Electoral College,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,13,Firing Government Workers,1,5,1,20,4,80,0,0,0,0,1
+no_fringe_questions_30,No Fringe Questions,14,Free Speech,1,5,0,0,1,20,4,80,0,0,1
+no_fringe_questions_30,No Fringe Questions,15,Gay Conversion,1,5,5,100,0,0,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,16,Gov. Control Colleges,1,5,5,100,0,0,0,0,0,0,4
+no_fringe_questions_30,No Fringe Questions,17,Gun Control,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,18,Health Care,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,19,Mass Deportations,1,5,5,100,0,0,0,0,0,0,2
+no_fringe_questions_30,No Fringe Questions,24,School Vouchers,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,25,Student Loan Debt,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,26,Tariffs,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,27,Taxes on Wealthy,1,5,0,0,5,100,0,0,0,0,0
+no_fringe_questions_30,No Fringe Questions,30,Universal Basic Income (UBI),1,5,0,0,4,80,1,20,0,0,1

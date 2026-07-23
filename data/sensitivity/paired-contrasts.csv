@@ -1,0 +1,7 @@
+contrast,from_arm,to_arm,category,percentage_point_difference,paired_two_stage_bootstrap_low,paired_two_stage_bootstrap_high,common_topics
+Removing the 30-word limit,Replication of WaPo,No Word Limit,left,-17.3,-29.3,-6.7,30
+Removing the 30-word limit,Replication of WaPo,No Word Limit,both,20.6,7.3,34.7,30
+Removing the 30-word limit,Replication of WaPo,No Word Limit,right,-3.3,-12.7,4,30
+Removing the remaining style instructions,No Word Limit,No System Prompt,left,-28,-42.7,-14,30
+Removing the remaining style instructions,No Word Limit,No System Prompt,both,28.7,14,44,30
+Removing the remaining style instructions,No Word Limit,No System Prompt,right,-0.7,-5.3,4,30
