@@ -4,13 +4,13 @@ This repository uses separate licenses for software and research content.
 
 ## Original software: MIT
 
-Copyright © 2026 John Clark Levin.
+Copyright © 2026 John-Clark Levin.
 
 The original software in `code/`, together with the original workflow and software-support files in `.github/`, `package.json`, and `.gitignore`, is licensed under the [MIT License](LICENSE-CODE). Source files in `code/` carry the SPDX identifier `MIT`.
 
 ## Research content: CC BY-NC-SA 4.0
 
-To the extent John Clark Levin holds copyright, related rights, or database rights in the original research content, those rights are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE-CONTENT). This scope includes `assets/`, `config/`, `data/`, `docs/`, `README.md`, and the release manifests and checksums.
+To the extent John-Clark Levin holds copyright, related rights, or database rights in the original research content, those rights are licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE-CONTENT). This scope includes `assets/`, `config/`, `data/`, `docs/`, `README.md`, and the release manifests and checksums.
 
 The license grant applies only to rights the licensor is legally able to license. It does not override third-party rights, contractual restrictions, privacy or publicity rights, trademarks, or material in the public domain.
 
