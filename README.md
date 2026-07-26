@@ -45,6 +45,7 @@ The Post’s annotation code also permits an implicit fourth outcome, `none`, wh
 - [Four-label re-judge harness](code/rejudge-four-label.mjs)
 - [Claude Opus 4.8 replication](claude-opus-4-8-political-response-replication)
 - [Appendix A: ablation experiments testing system prompt effects](Appendix%20A%20-%20Ablation%20Experiment)
+- [Appendix B: agreement validation measuring rating similarity between LLM judges](Appendix%20B%20-%20Agreement%20Validation)
 
 ## Reproduce the API experiment
 
