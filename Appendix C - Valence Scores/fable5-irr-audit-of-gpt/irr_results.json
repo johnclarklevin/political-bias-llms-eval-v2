@@ -1,0 +1,88 @@
+{
+ "leanings": {
+  "n": 95,
+  "exact_agreement": 0.8947,
+  "within_1": 1.0,
+  "within_2": 1.0,
+  "kappa_unweighted": 0.8222,
+  "kappa_linear": 0.8494,
+  "kappa_quadratic": 0.8861,
+  "spearman_rho": 0.917,
+  "pearson_r": 0.8919,
+  "krippendorff_ordinal": 0.9143,
+  "krippendorff_interval": 0.8867,
+  "icc_a1": 0.8871,
+  "mean_claude": -0.7263,
+  "mean_sol": -0.7263,
+  "mean_diff_claude_minus_sol": 0.0,
+  "sd_diff": 0.3262,
+  "mean_abs_diff": 0.1053,
+  "wilcoxon_p": 1.0,
+  "t_paired_p": 1.0
+ },
+ "skew": {
+  "n": 95,
+  "exact_agreement": 0.5158,
+  "within_1": 0.8947,
+  "within_2": 1.0,
+  "kappa_unweighted": 0.4273,
+  "kappa_linear": 0.6929,
+  "kappa_quadratic": 0.8608,
+  "spearman_rho": 0.8769,
+  "pearson_r": 0.8998,
+  "krippendorff_ordinal": 0.8258,
+  "krippendorff_interval": 0.8607,
+  "icc_a1": 0.8621,
+  "mean_claude": 3.5684,
+  "mean_sol": 3.2947,
+  "mean_diff_claude_minus_sol": 0.2737,
+  "sd_diff": 0.856,
+  "mean_abs_diff": 0.5895,
+  "wilcoxon_p": 0.0022,
+  "t_paired_p": 0.0024
+ },
+ "boot_lean": {
+  "kappa_linear": [
+   0.6272938465772354,
+   1.0
+  ],
+  "kappa_quadratic": [
+   0.6951362980005252,
+   1.0
+  ],
+  "spearman": [
+   0.7421977382584634,
+   1.0
+  ],
+  "exact": [
+   0.7368421052631579,
+   1.0
+  ],
+  "mean_diff": [
+   -0.15789473684210525,
+   0.15789473684210525
+  ]
+ },
+ "boot_skew": {
+  "kappa_linear": [
+   0.46703729514830433,
+   0.8217662974125659
+  ],
+  "kappa_quadratic": [
+   0.6612152590516867,
+   0.9403001541980864
+  ],
+  "spearman": [
+   0.6814141903196596,
+   0.9638521849302426
+  ],
+  "exact": [
+   0.3263157894736842,
+   0.7052631578947368
+  ],
+  "mean_diff": [
+   -0.07368421052631578,
+   0.6526315789473685
+  ]
+ }
+}
