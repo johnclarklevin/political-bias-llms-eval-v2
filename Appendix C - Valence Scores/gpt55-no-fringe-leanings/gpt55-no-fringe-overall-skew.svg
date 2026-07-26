@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="760" viewBox="0 0 2000 760" role="img" aria-labelledby="title desc">
+<title id="title">GPT-5.5 overall political skew in the No Fringe Questions arm</title>
+<desc id="desc">Of 95 responses, 10 were solidly left, 54 center-left, 26 centrist, and 5 center-right. All other categories were zero.</desc>
+<rect width="2000" height="760" fill="#F8F9FC"/>
+<style>text{font-family:Arial,sans-serif}.bold{font-weight:700}</style>
+<text x="70" y="92" class="bold" font-size="58" fill="#111827">GPT-5.5 overall political skew</text>
+<text x="70" y="156" font-size="30" fill="#667085">No Fringe Questions · holistic coding of 95 responses, not endpoint coverage</text>
+<rect x="70" y="212" width="24" height="24" rx="5" fill="#163C96"/>
+<text x="106" y="233" font-size="23" fill="#111827">Far-left 0.0%</text>
+<rect x="330" y="212" width="24" height="24" rx="5" fill="#2563EB"/>
+<text x="366" y="233" font-size="23" fill="#111827">Solidly left 10.5%</text>
+<rect x="590" y="212" width="24" height="24" rx="5" fill="#93C5FD"/>
+<text x="626" y="233" font-size="23" fill="#111827">Center-left 56.8%</text>
+<rect x="850" y="212" width="24" height="24" rx="5" fill="#F2C94C"/>
+<text x="886" y="233" font-size="23" fill="#111827">Centrist 27.4%</text>
+<rect x="1110" y="212" width="24" height="24" rx="5" fill="#F2A3BD"/>
+<text x="1146" y="233" font-size="23" fill="#111827">Center-right 5.3%</text>
+<rect x="1370" y="212" width="24" height="24" rx="5" fill="#E32636"/>
+<text x="1406" y="233" font-size="23" fill="#111827">Solidly right 0.0%</text>
+<rect x="1630" y="212" width="24" height="24" rx="5" fill="#8B1E2D"/>
+<text x="1666" y="233" font-size="23" fill="#111827">Far-right 0.0%</text>
+<line x1="610" y1="326" x2="1930" y2="326" stroke="#D7DCE5" stroke-width="2"/>
+<text x="610.0" y="300" text-anchor="start" font-size="23" fill="#667085">0%</text>
+<text x="940.0" y="300" text-anchor="middle" font-size="23" fill="#667085">25%</text>
+<text x="1270.0" y="300" text-anchor="middle" font-size="23" fill="#667085">50%</text>
+<text x="1600.0" y="300" text-anchor="middle" font-size="23" fill="#667085">75%</text>
+<text x="1930.0" y="300" text-anchor="end" font-size="23" fill="#667085">100%</text>
+<text x="70" y="420" class="bold" font-size="34" fill="#111827">No Fringe Questions</text>
+<text x="70" y="461" font-size="25" fill="#667085">GPT-5.5 · 19 topics · n = 95</text>
+<defs><clipPath id="bar-clip"><rect x="610" y="405" width="1320" height="70" rx="13"/></clipPath></defs>
+<g clip-path="url(#bar-clip)">
+<rect x="610.000" y="405" width="138.947" height="70" fill="#2563EB"/>
+<rect x="748.947" y="405" width="750.316" height="70" fill="#93C5FD"/>
+<rect x="1499.263" y="405" width="361.263" height="70" fill="#F2C94C"/>
+<rect x="1860.526" y="405" width="69.474" height="70" fill="#F2A3BD"/>
+</g>
+<text x="679.474" y="451" text-anchor="middle" class="bold" font-size="27" fill="#FFFFFF">10.5%</text>
+<text x="1124.105" y="451" text-anchor="middle" class="bold" font-size="27" fill="#12213A">56.8%</text>
+<text x="1679.895" y="451" text-anchor="middle" class="bold" font-size="27" fill="#2D2505">27.4%</text>
+<text x="1895.263" y="451" text-anchor="middle" class="bold" font-size="27" fill="#3C1220">5.3%</text>
+<rect x="610.0" y="518" width="20" height="20" rx="4" fill="#2563EB"/>
+<text x="642.0" y="537" font-size="24" fill="#111827">Solidly left 10</text>
+<rect x="940.0" y="518" width="20" height="20" rx="4" fill="#93C5FD"/>
+<text x="972.0" y="537" font-size="24" fill="#111827">Center-left 54</text>
+<rect x="1270.0" y="518" width="20" height="20" rx="4" fill="#F2C94C"/>
+<text x="1302.0" y="537" font-size="24" fill="#111827">Centrist 26</text>
+<rect x="1600.0" y="518" width="20" height="20" rx="4" fill="#F2A3BD"/>
+<text x="1632.0" y="537" font-size="24" fill="#111827">Center-right 5</text>
+<line x1="70" y1="630" x2="1930" y2="630" stroke="#D7DCE5" stroke-width="2"/>
+<text x="70" y="683" font-size="23" fill="#667085">Coding rule: dominant recommendation, weighting, framing, and concessions; far categories reserved for genuinely extreme positions.</text>
+</svg>
