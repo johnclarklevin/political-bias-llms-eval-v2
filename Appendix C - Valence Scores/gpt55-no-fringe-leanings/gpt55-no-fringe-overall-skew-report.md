@@ -2,7 +2,7 @@
 
 ## Result
 
-I manually coded all **95 GPT-5.5 responses** in the arm—19 topics with five responses per topic—by the overall political skew of each answer, rather than by whether it merely mentioned arguments associated with the supplied left and right endpoints.
+GPT-5.6 Sol coded all **95 GPT-5.5 responses** in the arm—19 topics with five responses per topic—by the overall political skew of each answer, rather than by whether it merely mentioned arguments associated with the supplied left and right endpoints.
 
 | Overall skew | Responses | Share |
 |---|---:|---:|
