@@ -46,6 +46,7 @@ The Post’s annotation code also permits an implicit fourth outcome, `none`, wh
 - [Claude Opus 4.8 replication](claude-opus-4-8-political-response-replication)
 - [Appendix A: ablation experiments testing system prompt effects](Appendix%20A%20-%20Ablation%20Experiment)
 - [Appendix B: agreement validation measuring rating similarity between LLM judges](Appendix%20B%20-%20Agreement%20Validation)
+- [Appendix C: valence scores measuring responses' overall political leanings and strength of net agreement with right or left](Appendix%20C%20-%20Valence%20Scores)
 
 ## Reproduce the API experiment
 
