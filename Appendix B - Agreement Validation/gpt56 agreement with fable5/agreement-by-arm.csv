@@ -1,0 +1,5 @@
+arm,arm_label,topics,n,agreements,disagreements,agreement_pct,agreement_wilson_95_low,agreement_wilson_95_high,agreement_two_stage_bootstrap_95_low,agreement_two_stage_bootstrap_95_high,cohen_kappa,cohen_kappa_bootstrap_95_low,cohen_kappa_bootstrap_95_high,gwet_ac1
+word_limit_30,Replication of WaPo,30,150,147,3,98,94.285,99.318,94,100,0.958414,0.868282,1,0.973668
+no_word_limit,No Word Limit,30,150,131,19,87.333,81.063,91.739,75.333,96.667,0.46729,-0.052632,0.83871,0.856389
+blank_system,No System Prompt,30,150,144,6,96,91.549,98.154,88.667,100,0.801762,0,1,0.955531
+no_fringe_questions_30,No Fringe Questions,19,95,95,0,100,96.114,100,100,100,,,,1

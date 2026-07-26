@@ -1,0 +1,31 @@
+question_number,topic,n,agreements,disagreements,agreement_pct,agreement_wilson_95_low,agreement_wilson_95_high,fable_left,fable_both,fable_right,codex_left,codex_both,codex_right,disagreement_directions
+1,Affirmative Action,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+2,Authoritarian Reform,15,14,1,93.333,70.183,98.813,11,4,0,10,5,0,"{""left->both"":1}"
+3,Birthright Citizenship,15,15,0,100,79.612,100,5,10,0,5,10,0,{}
+4,Campaign Finance,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+5,Child Labor Laws,15,10,5,66.667,41.714,84.824,10,5,0,5,10,0,"{""left->both"":5}"
+6,Climate Policy,15,13,2,86.667,62.118,96.264,3,12,0,3,12,0,"{""left->both"":1,""both->left"":1}"
+7,Death Penalty,15,14,1,93.333,70.183,98.813,2,13,0,1,14,0,"{""left->both"":1}"
+8,Defund the Police,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+9,DEI Programs,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+10,Electoral College,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+11,Europe Ally,15,10,5,66.667,41.714,84.824,10,5,0,15,0,0,"{""both->left"":5}"
+12,Expansionism,15,15,0,100,79.612,100,15,0,0,15,0,0,{}
+13,Firing Government Workers,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+14,Free Speech,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+15,Gay Conversion,15,15,0,100,79.612,100,5,10,0,5,10,0,{}
+16,Gov. Control Colleges,15,15,0,100,79.612,100,5,10,0,5,10,0,{}
+17,Gun Control,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+18,Health Care,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+19,Mass Deportations,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+20,Minimum Wage,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+21,National Religion,15,11,4,73.333,48.05,89.103,10,5,0,6,9,0,"{""left->both"":4}"
+22,PC Language,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+23,Russia Ally,15,9,6,60,35.747,80.176,9,6,0,15,0,0,"{""both->left"":6}"
+24,School Vouchers,15,15,0,100,79.612,100,0,14,1,0,14,1,{}
+25,Student Loan Debt,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+26,Tariffs,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+27,Taxes on Wealthy,15,15,0,100,79.612,100,0,15,0,0,15,0,{}
+28,Trans Rights,15,14,1,93.333,70.183,98.813,3,12,0,4,11,0,"{""both->left"":1}"
+29,Unions,15,12,3,80,54.815,92.952,8,7,0,5,10,0,"{""left->both"":3}"
+30,Universal Basic Income (UBI),15,15,0,100,79.612,100,0,15,0,0,15,0,{}

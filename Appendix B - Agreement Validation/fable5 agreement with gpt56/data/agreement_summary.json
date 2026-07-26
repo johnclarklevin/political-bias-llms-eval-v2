@@ -1,0 +1,134 @@
+{
+  "n": 450,
+  "agree": 382,
+  "agree_pct": 84.89,
+  "agree_ci_pct": [
+    78.2,
+    90.4
+  ],
+  "cohens_kappa": 0.7167,
+  "kappa_ci": [
+    0.585,
+    0.815
+  ],
+  "gwets_ac1": 0.7947,
+  "ac1_ci": [
+    0.708,
+    0.871
+  ],
+  "krippendorff_alpha": 0.714,
+  "bootstrap": {
+    "design": "two-stage (topics, then responses within topic)",
+    "iters": 2000,
+    "seed": 20260725
+  },
+  "per_arm": {
+    "word_limit_30": {
+      "n": 150,
+      "agree_pct": 97.33,
+      "agree_ci": [
+        93.3,
+        100.0
+      ],
+      "kappa": 0.9249,
+      "kappa_ci": [
+        0.814,
+        1.0
+      ],
+      "ac1": 0.9676
+    },
+    "no_word_limit": {
+      "n": 150,
+      "agree_pct": 66.0,
+      "agree_ci": [
+        52.0,
+        79.3
+      ],
+      "kappa": 0.3909,
+      "kappa_ci": [
+        0.196,
+        0.593
+      ],
+      "ac1": 0.5418
+    },
+    "blank_system": {
+      "n": 150,
+      "agree_pct": 91.33,
+      "agree_ci": [
+        83.3,
+        98.0
+      ],
+      "kappa": 0.815,
+      "kappa_ci": [
+        0.624,
+        0.96
+      ],
+      "ac1": 0.8868
+    }
+  },
+  "confusion_sol_rows_claude_cols": {
+    "left": {
+      "left": 209,
+      "both": 54,
+      "right": 0
+    },
+    "both": {
+      "left": 7,
+      "both": 161,
+      "right": 3
+    },
+    "right": {
+      "left": 0,
+      "both": 4,
+      "right": 12
+    }
+  },
+  "bowker_symmetry": {
+    "chi2": 36.36,
+    "df": 2,
+    "p": 1.2746795267843515e-08
+  },
+  "mcnemar_left_both": {
+    "sol_left_claude_both": 54,
+    "sol_both_claude_left": 7,
+    "p": 4.32210722073334e-10
+  },
+  "per_topic_agreement_of_15": {
+    "T01 Affirmative Action": 12,
+    "T02 Authoritarian Reform": 15,
+    "T03 Birthright Citizenship": 7,
+    "T04 Campaign Finance": 15,
+    "T05 Child Labor Laws": 12,
+    "T06 Climate Policy": 11,
+    "T07 Death Penalty": 10,
+    "T08 Defund the Police": 14,
+    "T09 DEI Programs": 15,
+    "T10 Electoral College": 12,
+    "T11 Europe Ally": 15,
+    "T12 Expansionism": 15,
+    "T13 Firing Government Workers": 11,
+    "T14 Free Speech": 12,
+    "T15 Gay Conversion": 11,
+    "T16 Gov. Control Colleges": 11,
+    "T17 Gun Control": 14,
+    "T18 Health Care": 12,
+    "T19 Mass Deportations": 15,
+    "T20 Minimum Wage": 10,
+    "T21 National Religion": 15,
+    "T22 PC Language": 13,
+    "T23 Russia Ally": 15,
+    "T24 School Vouchers": 14,
+    "T25 Student Loan Debt": 13,
+    "T26 Tariffs": 14,
+    "T27 Taxes on Wealthy": 14,
+    "T28 Trans Rights": 11,
+    "T29 Unions": 9,
+    "T30 Universal Basic Income (UBI)": 15
+  },
+  "hashes": {
+    "generations_sha256": "5f02fdac142312a444c9c27a0510140033722809fb522555e2b1ac1e362f1244",
+    "judgments_sha256": "03ca97dd7d170e92045bb2ef4870b38865145fa6b25bfe6f56088db5ebc820aa",
+    "claude_labels_sha256": "8a427395e5f8368c93f5e694912fc0c39a4bd800a0feb3facfac0066bdc2bd9e",
+    "labels_lock": "8a427395e5f8368c93f5e694912fc0c39a4bd800a0feb3facfac0066bdc2bd9e"
+  }
+}

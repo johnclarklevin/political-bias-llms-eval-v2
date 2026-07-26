@@ -1,0 +1,90 @@
+<svg viewBox="0 0 5000 2944" width="5000" height="2944" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica Neue, Helvetica, Arial, Liberation Sans, sans-serif">
+<title>GPT-5.5 political-response classifications — Claude Fable 5 blinded judge</title>
+<rect width="5000" height="2944" fill="#fbfbfd"/>
+<text x="170" y="186" font-size="122" font-weight="700" fill="#111827" text-anchor="start">GPT-5.5 political-response classifications</text>
+<text x="170" y="300" font-size="56" font-weight="400" fill="#5f6876" text-anchor="start">Share of responses classified as supporting the left only, both sides, or the right only</text>
+<rect x="2889" y="390" width="49" height="49" rx="10" fill="#2563eb"/>
+<text x="2968" y="431" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Left-only</text>
+<rect x="3320" y="390" width="49" height="49" rx="10" fill="#7c3aed"/>
+<text x="3399" y="431" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Both</text>
+<rect x="3647" y="390" width="49" height="49" rx="10" fill="#dc2626"/>
+<text x="3726" y="431" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Right-only</text>
+<text x="1473" y="568" font-size="43" font-weight="400" fill="#9aa1ac" text-anchor="start">0%</text>
+<text x="2194.75" y="568" font-size="43" font-weight="400" fill="#9aa1ac" text-anchor="middle">25%</text>
+<text x="2916.5" y="568" font-size="43" font-weight="400" fill="#9aa1ac" text-anchor="middle">50%</text>
+<text x="3638.25" y="568" font-size="43" font-weight="400" fill="#9aa1ac" text-anchor="middle">75%</text>
+<text x="4360" y="568" font-size="43" font-weight="400" fill="#9aa1ac" text-anchor="end">100%</text>
+<line x1="1473" y1="595" x2="4360" y2="595" stroke="#f2f3f7" stroke-width="3"/>
+<text x="170" y="828" font-size="67" font-weight="700" fill="#111827" text-anchor="start">Washington Post Experiment</text>
+<text x="170" y="910" font-size="48" font-weight="400" fill="#5f6876" text-anchor="start">main article chart · 30 topics · n = 30</text>
+<clipPath id="bar0"><rect x="1473" y="778" width="2887" height="150" rx="25"/></clipPath>
+<rect x="1473.0" y="778" width="2309.6" height="150" fill="#2563eb" clip-path="url(#bar0)"/>
+<text x="2627.8" y="872" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">80.0%</text>
+<rect x="3782.6" y="778" width="482.1" height="150" fill="#7c3aed" clip-path="url(#bar0)"/>
+<text x="4023.7" y="872" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">16.7%</text>
+<rect x="4264.7" y="778" width="95.3" height="150" fill="#dc2626" clip-path="url(#bar0)"/>
+<rect x="1477" y="990" width="24" height="24" rx="6" fill="#2563eb"/>
+<text x="1535" y="1012" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Left-only 80.0%</text>
+<rect x="2324" y="990" width="24" height="24" rx="6" fill="#7c3aed"/>
+<text x="2382" y="1012" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Both 16.7%</text>
+<rect x="3088" y="990" width="24" height="24" rx="6" fill="#dc2626"/>
+<text x="3146" y="1012" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Right-only 3.3%</text>
+<text x="170" y="1231" font-size="67" font-weight="700" fill="#111827" text-anchor="start">Replication of WaPo</text>
+<text x="170" y="1313" font-size="48" font-weight="400" fill="#5f6876" text-anchor="start">30-word system prompt · 30 topics · n = 150</text>
+<clipPath id="bar1"><rect x="1473" y="1181" width="2887" height="150" rx="25"/></clipPath>
+<rect x="1473.0" y="1181" width="2251.9" height="150" fill="#2563eb" clip-path="url(#bar1)"/>
+<text x="2598.9" y="1275" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">78.0%</text>
+<rect x="3724.9" y="1181" width="424.4" height="150" fill="#7c3aed" clip-path="url(#bar1)"/>
+<text x="3937.1" y="1275" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">14.7%</text>
+<rect x="4149.2" y="1181" width="210.8" height="150" fill="#dc2626" clip-path="url(#bar1)"/>
+<rect x="1477" y="1393" width="24" height="24" rx="6" fill="#2563eb"/>
+<text x="1535" y="1415" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Left-only 78.0%</text>
+<rect x="2324" y="1393" width="24" height="24" rx="6" fill="#7c3aed"/>
+<text x="2382" y="1415" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Both 14.7%</text>
+<rect x="3088" y="1393" width="24" height="24" rx="6" fill="#dc2626"/>
+<text x="3146" y="1415" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Right-only 7.3%</text>
+<text x="170" y="1633" font-size="67" font-weight="700" fill="#111827" text-anchor="start">No Word Limit</text>
+<text x="170" y="1715" font-size="48" font-weight="400" fill="#5f6876" text-anchor="start">style system prompt retained · 30 topics · n = 150</text>
+<clipPath id="bar2"><rect x="1473" y="1583" width="2887" height="150" rx="25"/></clipPath>
+<rect x="1473.0" y="1583" width="981.6" height="150" fill="#2563eb" clip-path="url(#bar2)"/>
+<text x="1963.8" y="1677" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">34.0%</text>
+<rect x="2454.6" y="1583" width="1885.2" height="150" fill="#7c3aed" clip-path="url(#bar2)"/>
+<text x="3397.2" y="1677" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">65.3%</text>
+<rect x="4339.8" y="1583" width="20.2" height="150" fill="#dc2626" clip-path="url(#bar2)"/>
+<rect x="1477" y="1795" width="24" height="24" rx="6" fill="#2563eb"/>
+<text x="1535" y="1817" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Left-only 34.0%</text>
+<rect x="2324" y="1795" width="24" height="24" rx="6" fill="#7c3aed"/>
+<text x="2382" y="1817" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Both 65.3%</text>
+<rect x="3088" y="1795" width="24" height="24" rx="6" fill="#dc2626"/>
+<text x="3146" y="1817" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Right-only 0.7%</text>
+<text x="170" y="2036" font-size="67" font-weight="700" fill="#111827" text-anchor="start">No System Prompt</text>
+<text x="170" y="2118" font-size="48" font-weight="400" fill="#5f6876" text-anchor="start">no system message · 30 topics · n = 150</text>
+<clipPath id="bar3"><rect x="1473" y="1986" width="2887" height="150" rx="25"/></clipPath>
+<rect x="1473.0" y="1986" width="923.8" height="150" fill="#2563eb" clip-path="url(#bar3)"/>
+<text x="1934.9" y="2080" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">32.0%</text>
+<rect x="2396.8" y="1986" width="1905.4" height="150" fill="#7c3aed" clip-path="url(#bar3)"/>
+<text x="3349.6" y="2080" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">66.0%</text>
+<rect x="4302.3" y="1986" width="57.7" height="150" fill="#dc2626" clip-path="url(#bar3)"/>
+<rect x="1477" y="2198" width="24" height="24" rx="6" fill="#2563eb"/>
+<text x="1535" y="2220" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Left-only 32.0%</text>
+<rect x="2324" y="2198" width="24" height="24" rx="6" fill="#7c3aed"/>
+<text x="2382" y="2220" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Both 66.0%</text>
+<rect x="3088" y="2198" width="24" height="24" rx="6" fill="#dc2626"/>
+<text x="3146" y="2220" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Right-only 2.0%</text>
+<text x="170" y="2550" font-size="67" font-weight="700" fill="#111827" text-anchor="start">No Fringe Questions</text>
+<text x="170" y="2632" font-size="48" font-weight="400" fill="#5f6876" text-anchor="start">original wording · no system message · n = 95</text>
+<clipPath id="bar4"><rect x="1473" y="2500" width="2887" height="150" rx="25"/></clipPath>
+<rect x="1473.0" y="2500" width="456.1" height="150" fill="#2563eb" clip-path="url(#bar4)"/>
+<text x="1701.1" y="2594" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">15.8%</text>
+<rect x="1929.1" y="2500" width="2341.4" height="150" fill="#7c3aed" clip-path="url(#bar4)"/>
+<text x="3099.8" y="2594" font-size="52" font-weight="700" fill="#ffffff" text-anchor="middle">81.1%</text>
+<rect x="4270.5" y="2500" width="92.4" height="150" fill="#dc2626" clip-path="url(#bar4)"/>
+<rect x="1477" y="2712" width="24" height="24" rx="6" fill="#2563eb"/>
+<text x="1535" y="2734" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Left-only 15.8%</text>
+<rect x="2324" y="2712" width="24" height="24" rx="6" fill="#7c3aed"/>
+<text x="2382" y="2734" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Both 81.1%</text>
+<rect x="3088" y="2712" width="24" height="24" rx="6" fill="#dc2626"/>
+<text x="3146" y="2734" font-size="47" font-weight="400" fill="#444d5c" text-anchor="start">Right-only 3.2%</text>
+<text x="172" y="2449" font-size="50" font-weight="700" fill="#687182" text-anchor="start">19 questions meeting the 30% two-party support threshold</text>
+<text x="4830" y="2861" font-size="47" font-weight="400" fill="#5f6876" text-anchor="end">GPT-5.5 responses · Claude Fable 5 blinded classifications</text>
+</svg>

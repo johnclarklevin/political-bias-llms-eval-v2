@@ -1,0 +1,21 @@
+{
+  "locked_at": "2026-07-25T22:25:30.667Z",
+  "score_file": "codex-blinded-scores.csv",
+  "sha256": "e18944afa6f609f142de573c53bc8df5448070f78b78819915a878f60f17de3e",
+  "rows": 450,
+  "label_counts": {
+    "left": 94,
+    "right": 1,
+    "both": 355
+  },
+  "generation_source_sha256": "3ef73377115c348afda84a1b6e00822aa2ac7dc54fc380a84276f2a486963cf8",
+  "blinding_seed": "codex-independent-blind-review-20260725-v1",
+  "reference_judgments_opened_before_lock": false,
+  "validation": {
+    "topic_files": 30,
+    "rows_per_topic": 15,
+    "unique_blind_ids": 450,
+    "exact_mapping_coverage": true,
+    "allowed_labels_only": true
+  }
+}

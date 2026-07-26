@@ -1,0 +1,6 @@
+arm,label,topics,n,left_only_n,left_only_pct,both_n,both_pct,right_only_n,right_only_pct,basis
+washington_post_experiment,Washington Post Experiment,30,30,13,43.3,17,56.7,0,0.0,Recomputed from the vendored frozen source; one reporter-coded response per topic.
+word_limit_30,Replication of WaPo,30,150,58,38.7,91,60.7,1,0.7,Claude Opus 4.8 responses independently classified by Codex under casewise blinding.
+no_word_limit,No Word Limit,30,150,16,10.7,134,89.3,0,0.0,Claude Opus 4.8 responses independently classified by Codex under casewise blinding.
+blank_system,No System Prompt,30,150,20,13.3,130,86.7,0,0.0,Claude Opus 4.8 responses independently classified by Codex under casewise blinding.
+no_fringe_questions_30,No Fringe Questions,19,95,0,0.0,95,100.0,0,0.0,Derived subset of the existing No System Prompt responses.

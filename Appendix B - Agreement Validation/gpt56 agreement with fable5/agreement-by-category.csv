@@ -1,0 +1,4 @@
+label,fable_n,fable_pct,codex_n,codex_pct,exact_matches,fable_conditioned_agreement_pct,symmetric_category_agreement_dice
+left,96,21.333,94,20.889,81,84.375,0.852632
+both,353,78.444,355,78.889,340,96.317,0.960452
+right,1,0.222,1,0.222,1,100,1

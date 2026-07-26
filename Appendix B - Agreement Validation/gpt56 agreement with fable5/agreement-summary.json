@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-07-25T22:31:13.118Z",
+  "source": {
+    "repository_commit": "a975f79ea26995589192ed3c5d253676338f2592",
+    "locked_codex_score_sha256": "e18944afa6f609f142de573c53bc8df5448070f78b78819915a878f60f17de3e",
+    "generation_source_sha256": "3ef73377115c348afda84a1b6e00822aa2ac7dc54fc380a84276f2a486963cf8",
+    "codex_scores_locked_at": "2026-07-25T22:25:30.667Z",
+    "reference_labels_joined_only_after_lock": true
+  },
+  "methodology": {
+    "label_set": [
+      "left",
+      "both",
+      "right"
+    ],
+    "unit": "One physical Claude Opus 4.8 generation with paired Codex and Claude Fable 5 labels",
+    "confidence_level": 0.95,
+    "row_level_interval": "Wilson score interval for exact agreement, treating rows as independent",
+    "clustered_interval": "Two-stage nonparametric bootstrap with 40000 iterations: resample topics with replacement, then responses within each sampled topic with replacement",
+    "interpretation": "Bootstrap intervals are robustness summaries under a topic-exchangeability assumption, not design-based confidence intervals for all political questions.",
+    "agreement_coefficients": {
+      "cohen_kappa": "Chance-corrected agreement using the two raters' separate category marginals",
+      "gwet_ac1": "Chance-corrected nominal agreement less sensitive than kappa to dominant-category prevalence",
+      "krippendorff_alpha_nominal": "Nominal alpha computed from pooled rater marginals without replacement correction"
+    }
+  },
+  "overall": {
+    "n": 450,
+    "agreements": 422,
+    "disagreements": 28,
+    "agreement_pct": 93.778,
+    "agreement_wilson_95": [
+      91.154,
+      95.66
+    ],
+    "agreement_two_stage_bootstrap_95": [
+      88.667,
+      98
+    ],
+    "cohen_kappa": 0.815141,
+    "cohen_kappa_two_stage_bootstrap_95": [
+      0.693878,
+      0.92385
+    ],
+    "gwet_ac1": 0.925187,
+    "gwet_ac1_two_stage_bootstrap_95": [
+      0.859039,
+      0.976147
+    ],
+    "krippendorff_alpha_nominal": 0.815341,
+    "krippendorff_alpha_two_stage_bootstrap_95": [
+      0.693563,
+      0.923911
+    ],
+    "expected_agreement_for_kappa_pct": 66.341,
+    "expected_agreement_for_ac1_pct": 16.829,
+    "fable_label_counts": {
+      "left": 96,
+      "both": 353,
+      "right": 1
+    },
+    "codex_label_counts": {
+      "left": 94,
+      "both": 355,
+      "right": 1
+    }
+  },
+  "exact_conditional_symmetry_test": {
+    "method": "Exact conditional Bowker symmetry test (independent Binomial[total, 0.5] directions within each unordered disagreement pair)",
+    "statistic": 0.142857,
+    "effective_df": 1,
+    "p_value_two_sided": 0.85055402,
+    "pairs": [
+      {
+        "first": "left",
+        "second": "both",
+        "forward": 15,
+        "reverse": 13,
+        "total": 28
+      }
+    ]
+  },
+  "category_agreement": [
+    {
+      "label": "left",
+      "fable_n": 96,
+      "fable_pct": 21.333,
+      "codex_n": 94,
+      "codex_pct": 20.889,
+      "exact_matches": 81,
+      "fable_conditioned_agreement_pct": 84.375,
+      "symmetric_category_agreement_dice": 0.852632
+    },
+    {
+      "label": "both",
+      "fable_n": 353,
+      "fable_pct": 78.444,
+      "codex_n": 355,
+      "codex_pct": 78.889,
+      "exact_matches": 340,
+      "fable_conditioned_agreement_pct": 96.317,
+      "symmetric_category_agreement_dice": 0.960452
+    },
+    {
+      "label": "right",
+      "fable_n": 1,
+      "fable_pct": 0.222,
+      "codex_n": 1,
+      "codex_pct": 0.222,
+      "exact_matches": 1,
+      "fable_conditioned_agreement_pct": 100,
+      "symmetric_category_agreement_dice": 1
+    }
+  ],
+  "arm_agreement": [
+    {
+      "arm": "word_limit_30",
+      "arm_label": "Replication of WaPo",
+      "topics": 30,
+      "n": 150,
+      "agreements": 147,
+      "disagreements": 3,
+      "agreement_pct": 98,
+      "agreement_wilson_95_low": 94.285,
+      "agreement_wilson_95_high": 99.318,
+      "agreement_two_stage_bootstrap_95_low": 94,
+      "agreement_two_stage_bootstrap_95_high": 100,
+      "cohen_kappa": 0.958414,
+      "cohen_kappa_bootstrap_95_low": 0.868282,
+      "cohen_kappa_bootstrap_95_high": 1,
+      "gwet_ac1": 0.973668
+    },
+    {
+      "arm": "no_word_limit",
+      "arm_label": "No Word Limit",
+      "topics": 30,
+      "n": 150,
+      "agreements": 131,
+      "disagreements": 19,
+      "agreement_pct": 87.333,
+      "agreement_wilson_95_low": 81.063,
+      "agreement_wilson_95_high": 91.739,
+      "agreement_two_stage_bootstrap_95_low": 75.333,
+      "agreement_two_stage_bootstrap_95_high": 96.667,
+      "cohen_kappa": 0.46729,
+      "cohen_kappa_bootstrap_95_low": -0.052632,
+      "cohen_kappa_bootstrap_95_high": 0.83871,
+      "gwet_ac1": 0.856389
+    },
+    {
+      "arm": "blank_system",
+      "arm_label": "No System Prompt",
+      "topics": 30,
+      "n": 150,
+      "agreements": 144,
+      "disagreements": 6,
+      "agreement_pct": 96,
+      "agreement_wilson_95_low": 91.549,
+      "agreement_wilson_95_high": 98.154,
+      "agreement_two_stage_bootstrap_95_low": 88.667,
+      "agreement_two_stage_bootstrap_95_high": 100,
+      "cohen_kappa": 0.801762,
+      "cohen_kappa_bootstrap_95_low": 0,
+      "cohen_kappa_bootstrap_95_high": 1,
+      "gwet_ac1": 0.955531
+    },
+    {
+      "arm": "no_fringe_questions_30",
+      "arm_label": "No Fringe Questions",
+      "topics": 19,
+      "n": 95,
+      "agreements": 95,
+      "disagreements": 0,
+      "agreement_pct": 100,
+      "agreement_wilson_95_low": 96.114,
+      "agreement_wilson_95_high": 100,
+      "agreement_two_stage_bootstrap_95_low": 100,
+      "agreement_two_stage_bootstrap_95_high": 100,
+      "cohen_kappa": null,
+      "cohen_kappa_bootstrap_95_low": null,
+      "cohen_kappa_bootstrap_95_high": null,
+      "gwet_ac1": 1
+    }
+  ],
+  "arm_contrasts": [
+    {
+      "contrast": "No Word Limit minus Replication of WaPo",
+      "from_arm": "Replication of WaPo",
+      "to_arm": "No Word Limit",
+      "common_topics": 30,
+      "agreement_percentage_point_difference": -10.667,
+      "paired_two_stage_bootstrap_95_low": -23.333,
+      "paired_two_stage_bootstrap_95_high": 0
+    },
+    {
+      "contrast": "No System Prompt minus No Word Limit",
+      "from_arm": "No Word Limit",
+      "to_arm": "No System Prompt",
+      "common_topics": 30,
+      "agreement_percentage_point_difference": 8.667,
+      "paired_two_stage_bootstrap_95_low": -3.333,
+      "paired_two_stage_bootstrap_95_high": 21.333
+    },
+    {
+      "contrast": "No System Prompt minus Replication of WaPo",
+      "from_arm": "Replication of WaPo",
+      "to_arm": "No System Prompt",
+      "common_topics": 30,
+      "agreement_percentage_point_difference": -2,
+      "paired_two_stage_bootstrap_95_low": -10.667,
+      "paired_two_stage_bootstrap_95_high": 4.667
+    }
+  ]
+}
