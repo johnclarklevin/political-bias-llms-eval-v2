@@ -4,7 +4,7 @@
 
 A topic is included when the closest defensible party-specific evidence indicates that at least 30% of Democrats support the prompt’s liberal endpoint and at least 30% of Republicans support its conservative endpoint. A direct match closely tracks the two prompt alternatives; a close match requires limited interpretation; a proxy uses a related attitude or action.
 
-The rule includes **17 of 30 topics**: questions **1, 3, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18, 19, 24, 25, 26, 27, 30**. The resulting No Fringe Questions arm is a deterministic subset of the No System Prompt responses, not an additional API run.
+The rule includes **19 of 30 topics**: questions **1, 3, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18, 19, 24, 25, 26, 27, 30**. The resulting No Fringe Questions arm is a deterministic subset of the No System Prompt responses, not an additional API run.
 
 ## Topic overview
 
