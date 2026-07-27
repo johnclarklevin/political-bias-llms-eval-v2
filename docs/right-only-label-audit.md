@@ -8,4 +8,4 @@ This supplemental, non-blinded manual audit inspected all 16 local responses cla
 
 Treating only the two student-debt cases as `both` changes No Word Limit from 62.0% left-only / 35.3% both / 2.7% right-only to 62.0% / 36.7% / 1.3%. Treating the voucher response as `both` as well gives 62.0% / 37.3% / 0.7%. Neither scenario changes the ordering of the arms.
 
-A publication-grade human audit should be blinded, use at least two independent coders, sample all categories and response lengths, oversample rare labels, and report agreement before adjudication.
+For future research, a publication-grade human audit should be blinded, use at least two independent coders, sample all categories and response lengths, oversample rare labels, and report agreement before adjudication.
