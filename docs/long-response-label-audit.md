@@ -2,7 +2,7 @@
 
 This supplemental audit directly addresses the response-length regime that drives the main sensitivity finding. It systematically samples 10 `both` and five `left` responses from each long-response condition after sorting by question number and repetition. The all-response right-only audit is reported separately.
 
-The audit is non-blinded and was performed by one reviewer, so it is a diagnostic check rather than an independent validation study. Selection was deterministic and completed by code; the manual labels and rationales are explicitly recorded in `code/build-long-response-audit.mjs`.
+The audit is non-blinded and was performed by one reviewer (John-Clark Levin), so it is a diagnostic check rather than an independent validation study. Selection was deterministic and completed by code; the manual labels and rationales are explicitly recorded in `code/build-long-response-audit.mjs`.
 
 ## Result
 
